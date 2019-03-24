@@ -8,7 +8,7 @@ Repositório para projetos com alunos da Etec Professor Basilides de Godoy, todo
 ### Para que serve esse repositório? ###
 
 * Sumario rápido
-Armazenar e documentar as ferramentas necessárias para programar em  "Android". 
+Armazenar e documentar as ferramentas necessárias para programar em  "Android" e “Java” . 
 * Version
  1.0
 * [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
@@ -36,5 +36,5 @@ Armazenar e documentar as ferramentas necessárias para programar em  "Android".
 
 ### Licença ###
 Este projeto é criado por Rubens Leme e Luis Davi e lançado no domínio público. Sinta-se livre para usar e adaptar como quiser. Para entrar em contato, acesse-me no Skype ou no e-mail.
- e-mail:rubenss.leme@gmail.com
- skype:rubens.leme@uol.com.br
+* e-mail:rubenss.leme@gmail.com
+* skype:rubens.leme@uol.com.br

@@ -1,11 +1,11 @@
-# Repositorio de apps Android#
+﻿# Repositorio de apps Android#
 
 Esse README normalmente documentaria quais são as etapas necessárias para que sua aplicação seja executada.
 
 ### Para que serve esse repositório? ###
 
 * Sumario rapido
- Armazenar e documentar as ferramentas necessárias para baixar e programar o client do  "SisSgfCliente". 
+ Armazenar e documentar as ferramentas necessárias para baixar e programar o client do "Android". 
 * Version
  1.0
 * [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
