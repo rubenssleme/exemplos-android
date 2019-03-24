@@ -14,7 +14,8 @@ Armazenar e documentar as ferramentas necessárias para programar em  "Android" 
 * [Learn Markdown](https://guides.github.com/features/mastering-markdown/)
 
 ### Observações ###
-* Aqui seram colocas as observações. 
+* Aqui seram colocas as observações.
+###Diagrama de Arquivos:###
 
 
 ### Como faço para configurar? ###
