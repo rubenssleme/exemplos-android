@@ -15,7 +15,15 @@ Armazenar e documentar as ferramentas necessárias para programar em  "Android" 
 
 ### Observações ###
 * Aqui seram colocas as observações.
-###Diagrama de Arquivos:###
+
+#### Diagrama de Arquivos: <h4>
+```Java
+ReadMe principal.
+|====> ReadMe 1binfo
+||=======> ReadMe 2binfo
+|||===========> ReadMe 3binfo
+
+```
 
 
 ### Como faço para configurar? ###
