@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context=".ControladorTelaLogin">
+
+    <EditText
+        android:id="@+id/edtLogin"
+        android:layout_width="285dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="81dp"
+        android:background="@drawable/edttext_cor"
+        android:ems="10"
+        android:hint="Login"
+        android:inputType="text"
+        android:singleLine="false"
+        android:textAlignment="viewStart"
+        android:textColor="@android:color/black"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <EditText
+        android:id="@+id/edtSenha"
+        android:layout_width="283dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="28dp"
+        android:background="@drawable/edttext_cor"
+        android:contentDescription="Login"
+        android:ems="10"
+        android:hint="Senha"
+        android:inputType="textPassword"
+        android:textAlignment="viewStart"
+        android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+        android:textColor="@android:color/black"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edtLogin" />
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="283dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="48dp"
+<<<<<<< HEAD
+        android:layout_marginTop="16dp"
+        android:background="@color/colorGreen"
+        android:text="Fazer login"
+=======
+        android:layout_marginTop="20dp"
+        android:text="Fazer login"
+        android:background="@color/colorBlueBG"
+        android:textColor="@color/colorWhite"
+        android:textSize="25sp"
+        android:textStyle="bold"
+>>>>>>> dad3f8357da70cd679706d612de126761517a237
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edtSenha" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="373dp"
+        android:layout_height="199dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/brazao_bg_white" />
+</android.support.constraint.ConstraintLayout>

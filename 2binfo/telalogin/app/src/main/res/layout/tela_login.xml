@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ControladorTelaLogin">
+
+    <TextView
+        android:id="@+id/txvLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Login:"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="16dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Senha:"
+        app:layout_constraintTop_toBottomOf="@+id/txvLogin"
+        tools:layout_editor_absoluteX="16dp" />
+
+    <EditText
+        android:id="@+id/edtNome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="84dp" />
+
+    <EditText
+        android:id="@+id/edtSenha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        app:layout_constraintTop_toBottomOf="@+id/edtNome"
+        tools:layout_editor_absoluteX="84dp" />
+
+    <Switch
+        android:id="@+id/swtConectado"
+        android:layout_width="220dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="16dp"
+        android:text="Manter Conectado"
+        app:layout_constraintTop_toBottomOf="@+id/edtSenha"
+        tools:layout_editor_absoluteX="81dp" />
+
+    <Button
+        android:id="@+id/butLogar"
+        android:layout_width="234dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Logar"
+        app:layout_constraintTop_toBottomOf="@+id/swtConectado"
+        tools:layout_editor_absoluteX="65dp" />
+</android.support.constraint.ConstraintLayout>

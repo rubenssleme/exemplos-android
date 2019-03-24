@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">NavigationDrawerBG</string>
+    <string name="logo_basilides">Logo Empresa</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Menu Navigation Drawer-->
+    <string name="title_inserir">Inserir</string>
+    <string name="title_consultar">Consultar</string>
+    <string name="title_operacaoes">Operações</string>
+    <string name="title_tools">Ferramentas</string>
+
+    <string name="title_share">Compartilhar</string>
+    <string name="title_send">Enviar</string>
+
+    <!-- Fim Menu Navigation Drawer-->
+</resources>

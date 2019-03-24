@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "664440117935",
+    "firebase_url": "https://cursos-904c9.firebaseio.com",
+    "project_id": "cursos-904c9",
+    "storage_bucket": "cursos-904c9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:664440117935:android:d78156e4f2c9450f",
+        "android_client_info": {
+          "package_name": "com.aprendaefaca.cursos"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "664440117935-8lpobna98grohdncnlj64l1vfjnn6p2p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCMVatAPKd0t0nt_axJbyeIomkSFdcRrvs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

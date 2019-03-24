@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- cores do sistema inicio-->
+    <color name="colorPrimary_teal_600">#00897B</color>
+    <color name="colorPrimaryDark_teal_900">#004D40</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <!-- cores personalizadas material designer google-->
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorBlueBG">#1A237E</color>
+    <color name="colorTeal_200">#80CBC4</color>
+
+    
+</resources>

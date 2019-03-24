@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Projeto Layouts</string>
+    <string name="name_label">Digite o Nome</string>
+    <string name="name_label1">Nome1:</string>
+    <string name="see_message">Enviar</string>
+</resources>

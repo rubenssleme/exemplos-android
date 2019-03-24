@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">My Application</string>
+
+    <string name="title_activity_controlador_tela_splash">ControladorTelaSplash</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_controlador_tela_login">Sign in</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Digite seu email</string>
+    <string name="prompt_password">Digite sua senha</string>
+    <string name="action_sign_in">Entrar</string>
+    <string name="action_sign_in_short">Cadastre-se</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+
+    <string name="title_activity_controlador_tela_splash1">ControladorTelaSplash1</string>
+    <string name="title_activity_controlador_tela_login1">Sign in</string>
+    <string name="title_activity_controlador_tela_menu">ControladorTelaMenu</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="logo_descrition_img">Imagem Logo do  Basilides de Godoy</string>
+
+
+</resources>

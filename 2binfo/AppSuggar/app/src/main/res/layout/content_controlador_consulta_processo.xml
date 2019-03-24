@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="5dp"
+    android:layout_marginBottom="5dp"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.projetos.mobiletechlawer.controladores.processo.ControladorConsultaProcesso"
+    tools:showIn="@layout/tela_consulta_processo">
+
+    <RadioGroup
+        android:focusableInTouchMode="true"
+        android:layout_marginTop="5dp"
+        android:id="@+id/rg_filtro_processo"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:text="NUMERO"
+            android:id="@+id/rb_numero"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <RadioButton
+            android:text="CLIENTE"
+            android:id="@+id/rb_cliente"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <RadioButton
+            android:text="PASTA INTERNA"
+            android:id="@+id/rb_pasta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RadioGroup>
+    <EditText
+        android:textSize="16dp"
+        android:textStyle="bold"
+        android:id="@+id/edt_filtro_processo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <ListView
+        android:textSize="16dp"
+        android:textStyle="bold"
+        android:layout_marginTop="5dp"
+        android:id="@+id/lv_filtro_processo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </ListView>
+</LinearLayout>

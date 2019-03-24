@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">tccarctos</string>
+    <string name="usuario">Usuario</string>
+    <string name="senha">Senha</string>
+    <string name="login">Login</string>
+    <string name="title_activity_tela_chamado">telaChamado</string>
+    <string name="title_chamados">Chamados</string>
+    <string name="title_ajuda">Ajuda</string>
+    <string name="title_sobre">Sobre</string>
+    <string name="title_sair">Sair</string>
+
+    <string name="text_fragment_abertos">Esta é a Fragment Abertos</string>
+    <string name="text_fragment_em_andamento">Esta é a Fragment Em Andamento</string>
+    <string name="text_fragment_encerrados">Esta é a Fragment Encerrados</string>
+
+    <string-array name="titles_tab">
+        <item>Abertos</item>
+        <item>Em Andamento</item>
+        <item>Encerrados</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="nav_chamados">Chamados</string>
+    <string name="nav_ajuda">Ajuda</string>
+    <string name="nav_sobre">Sobre</string>
+    <string name="nav_sair">Sair</string>
+    <string name="textview">TextView</string>
+
+</resources>

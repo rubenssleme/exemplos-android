@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="bg.com.br.navigationdrawerbg.controladores.ControladorTelaOperacoes">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="41dp"
+        tools:layout_editor_absoluteY="174dp">
+
+
+        <TextView
+            android:id="@+id/txvValor1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Valor1:"
+            tools:layout_editor_absoluteX="44dp"
+            tools:layout_editor_absoluteY="115dp" />
+
+        <EditText
+            android:id="@+id/edtValor2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Valor 1"
+            tools:layout_editor_absoluteX="44dp"
+            tools:layout_editor_absoluteY="142dp" />
+
+        <TextView
+            android:id="@+id/txvValor2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Valor 2:"
+            tools:layout_editor_absoluteX="44dp"
+            tools:layout_editor_absoluteY="29dp" />
+
+        <EditText
+            android:id="@+id/edtValor1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Valor 2"
+            tools:layout_editor_absoluteX="44dp"
+            tools:layout_editor_absoluteY="59dp" />
+
+        <Button
+            android:id="@+id/btnSomar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Soma" />
+
+        <Button
+            android:id="@+id/btnSubtrair"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Subtração" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="bottom"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/txvResultado"
+                android:layout_width="match_parent"
+                android:layout_height="78dp"
+                android:layout_weight="1"
+                android:text="TextView" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>

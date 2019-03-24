@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="10dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.projetos.mobiletechlawer.controladores.processo.ControladorSelecionadoProcesso"
+    tools:showIn="@layout/tela_selecionado_processo">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="NUMERO:"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/txt_numero"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="4dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="ASSUNTO:"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/txt_assunto"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="4dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="CLIENTE:"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/txt_cliente"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="4dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="AÇÃO:"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/txt_acao"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="4dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="SITUAÇÃO:"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:id="@+id/txt_situacao"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="4dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="VALOR:"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/txt_valor"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="PASTA:"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/txt_pasta"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+         android:orientation="horizontal"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content">
+         <TextView
+             android:text="CONDIÇÃO:"
+             android:textSize="16dp"
+             android:textStyle="bold"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content" />
+         <TextView
+             android:id="@+id/txt_condicao"
+             android:textSize="16dp"
+             android:textStyle="bold"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content" />
+     </LinearLayout>
+     <LinearLayout
+         android:orientation="horizontal"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content">
+         <TextView
+             android:text="PARTE CONTRARIA:"
+             android:textSize="16dp"
+             android:textStyle="bold"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content" />
+         <TextView
+             android:textSize="16dp"
+             android:textStyle="bold"
+             android:id="@+id/txt_parte_contraria"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content" />
+     </LinearLayout>
+     <LinearLayout
+         android:orientation="horizontal"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content">
+         <TextView
+             android:text="ADVOGADO CONTRARIO:"
+             android:textSize="16dp"
+             android:textStyle="bold"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content" />
+         <TextView
+             android:textSize="16dp"
+             android:textStyle="bold"
+             android:id="@+id/txt_advogado_contrario"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content" />
+     </LinearLayout>
+     <LinearLayout
+         android:orientation="horizontal"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content">
+         <TextView
+             android:text="TIPO JUSTIÇA:"
+             android:textSize="16dp"
+             android:textStyle="bold"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content" />
+         <TextView
+             android:textSize="16dp"
+             android:textStyle="bold"
+             android:id="@+id/txt_tipo_justica"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content" />
+     </LinearLayout>
+     <LinearLayout
+         android:orientation="horizontal"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content">
+         <TextView
+             android:text="REGIÃO:"
+             android:textSize="16dp"
+             android:textStyle="bold"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content" />
+         <TextView
+             android:textSize="16dp"
+             android:textStyle="bold"
+             android:id="@+id/txt_regiao"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content" />
+     </LinearLayout>
+     <LinearLayout
+         android:orientation="horizontal"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content">
+         <TextView
+             android:text="SEÇÃO:"
+             android:textSize="16dp"
+             android:textStyle="bold"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content" />
+         <TextView
+             android:textSize="16dp"
+             android:textStyle="bold"
+             android:id="@+id/txt_secao"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content" />
+     </LinearLayout>
+     <LinearLayout
+         android:orientation="horizontal"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content">
+         <TextView
+             android:text="SUBSEÇÃO:"
+             android:textSize="16dp"
+             android:textStyle="bold"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content" />
+         <TextView
+             android:textSize="16dp"
+             android:textStyle="bold"
+             android:id="@+id/txt_subsecao"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content" />
+     </LinearLayout>
+     <LinearLayout
+         android:orientation="horizontal"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content">
+         <TextView
+             android:text="CIDADE COMARCA:"
+             android:textSize="16dp"
+             android:textStyle="bold"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content" />
+         <TextView
+             android:textSize="16dp"
+             android:textStyle="bold"
+             android:id="@+id/txt_cidade_comarca"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content" />
+     </LinearLayout>
+     <LinearLayout
+         android:orientation="horizontal"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content">
+         <TextView
+             android:text="FORO:"
+             android:textSize="16dp"
+             android:textStyle="bold"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content" />
+         <TextView
+             android:textSize="16dp"
+             android:textStyle="bold"
+             android:id="@+id/txt_foro"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content" />
+     </LinearLayout>
+     <LinearLayout
+         android:orientation="horizontal"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content">
+         <TextView
+             android:text="VARA:"
+             android:textSize="16dp"
+             android:textStyle="bold"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content" />
+         <TextView
+             android:textSize="16dp"
+             android:textStyle="bold"
+             android:id="@+id/txt_vara"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content" />
+     </LinearLayout>
+     <LinearLayout
+         android:orientation="horizontal"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content">
+         <TextView
+             android:text="OBSERVAÇÕES:"
+             android:textSize="16dp"
+             android:textStyle="bold"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content" />
+         <TextView
+             android:textSize="16dp"
+             android:textStyle="bold"
+             android:id="@+id/txt_observacoes"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content" />
+     </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,9 @@
+<resources>
+
+    <string name="navigation_drawer_open">Abrir navigation drawer</string>
+    <string name="navigation_drawer_close">Fechar navigation drawer</string>
+    <string name="nav_header_title">Rubens Leme</string>
+    <string name="nav_header_subtitle">Aplicativo Aprenda e Faça</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Configurações</string>
+</resources>
