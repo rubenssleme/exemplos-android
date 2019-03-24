@@ -1,5 +1,5 @@
 ﻿
-# Repositorio de apps Android#
+# Repositorio de projetos de Android e Java#
 
 Esse README normalmente documentaria quais são as etapas necessárias para que sua aplicação seja executada.
 Repositório para projetos com alunos da Etec Professor Basilides de Godoy, todos os modulos noite.
