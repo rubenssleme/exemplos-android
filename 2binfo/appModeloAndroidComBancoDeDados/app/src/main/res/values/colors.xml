@@ -1,9 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#008577</color>
-    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorPrimary">#E53935</color>
+    <color name="colorPrimaryDark">#D50000</color>
     <color name="colorAccent">#D81B60</color>
 
     <color name="black_overlay">#66000000</color>
     <color name="color_white">#FFFFFF</color>
+    <color name="color_laranja_900">#D85000</color>
+    <color name="color_laranja_800">#e26900</color>
+    <color name="color_laranja_700">#E87801</color>
+    <color name="color_laranja_600">#ee8802</color>
+    <color name="color_laranja_500">#f29303</color>
+    <color name="color_laranja_400">#B71C1C</color>
+
+    <color name="color_vermelha_900">#FFCDD2</color>
+    <color name="color_vermelha_600">#E53935</color>
+
+
+
+
 </resources>
