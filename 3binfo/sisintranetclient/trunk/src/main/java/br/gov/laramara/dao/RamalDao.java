@@ -1,11 +1,11 @@
-package br.gov.laramara.servico;
-/*Ajuste Classes 111 */
-import br.gov.laramara.dto.Ramal;
+package br.gov.laramara.dao;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import javax.faces.bean.ApplicationScoped;
 import javax.faces.bean.ManagedBean;
+
+import br.gov.laramara.entidade.Ramal;
 
 /**
  *
@@ -13,9 +13,9 @@ import javax.faces.bean.ManagedBean;
  */
 @ManagedBean(name = "ramalService")
 @ApplicationScoped
-public class RamalService {
+public class RamalDao {
 
-    public RamalService() {
+    public RamalDao() {
     }
 
     private final static String[] NOMES;

@@ -1,25 +1,30 @@
-package br.gov.laramara.controlador;
+package br.gov.laramara.bean;
 import java.io.Serializable;
 import java.util.List;
 import javax.annotation.PostConstruct;
 import javax.faces.bean.ManagedBean;
 import javax.faces.bean.ManagedProperty;
 import javax.faces.bean.ViewScoped;
-import br.gov.laramara.dto.Colaborador;
-import br.gov.laramara.servico.ColaboradorService;
+
+import br.gov.laramara.dao.ColaboradorDao;
+import br.gov.laramara.entidade.Colaborador;
+
 import java.util.Locale;
 
 @ManagedBean(name="colaboradorMB")
 @ViewScoped
-public class ColaboradorMB implements Serializable{
-    private List<Colaborador> colaborador;
+public class ColaboradorBean implements Serializable{
+   	private static final long serialVersionUID = 9159105945035543620L;
+
+
+	private List<Colaborador> colaborador;
    
          
     @ManagedProperty("#{colaboradorService}")
-    private ColaboradorService service;
+    private ColaboradorDao service;
     private List<Colaborador> filteredDepto;
 
-    public ColaboradorMB() {
+    public ColaboradorBean() {
     }
      
     
@@ -56,7 +61,7 @@ public class ColaboradorMB implements Serializable{
         return service.getEmpresas();
     }
  
-    public void setService(ColaboradorService service) {
+    public void setService(ColaboradorDao service) {
         this.service = service;
     }
      

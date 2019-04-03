@@ -5,17 +5,18 @@
  */
 package br.gov.laramara.repositorio;
 
-import br.gov.laramara.dto.Colaborador;
 import java.util.Arrays;
 import java.util.List;
+
+import br.gov.laramara.entidade.Colaborador;
 
 /**
  *
  * @author laramara
  */
-public class RepositorioBase {
+public class Banco {
 
-    public List<Colaborador> obterTodos() {
+    public List<Colaborador> obterTodosOsColaBoradores() {
 
         return Arrays.asList(
                 new Colaborador("AC Barqueiro", "6405", "REL.INSTITUCIONAIS","LARAMARA"),

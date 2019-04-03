@@ -1,7 +1,7 @@
-package br.gov.laramara.controlador;
+package br.gov.laramara.bean;
 
-import br.gov.laramara.dto.Ramal;
-import br.gov.laramara.servico.RamalService;
+import br.gov.laramara.dao.RamalDao;
+import br.gov.laramara.entidade.Ramal;
 
 import java.io.Serializable;
 import java.util.List;
@@ -13,12 +13,12 @@ import javax.faces.bean.ViewScoped;
 
 @ManagedBean(name = "dtRamalMB")
 @ViewScoped
-public class RamalMB implements Serializable {
+public class RamalBean implements Serializable {
 
     private List<Ramal> ramais;
 
     @ManagedProperty("#{ramalService}")
-    private RamalService ramalService;
+    private RamalDao ramalService;
 
     @PostConstruct
     public void init() {
@@ -29,7 +29,7 @@ public class RamalMB implements Serializable {
         return ramais;
     }
 
-    public void setRamalService(RamalService ramalService) {
+    public void setRamalService(RamalDao ramalService) {
         this.ramalService = ramalService;
     }
 

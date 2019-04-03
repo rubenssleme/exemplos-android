@@ -1,4 +1,4 @@
-package br.gov.laramara.dto;
+package br.gov.laramara.entidade;
 
 public class Ramal {
     private String nome;

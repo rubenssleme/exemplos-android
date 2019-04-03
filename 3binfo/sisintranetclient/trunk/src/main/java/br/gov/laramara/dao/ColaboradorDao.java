@@ -1,12 +1,14 @@
-package br.gov.laramara.servico;
+package br.gov.laramara.dao;
 
-import br.gov.laramara.dto.Colaborador;
-import br.gov.laramara.repositorio.RepositorioBase;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+
 import javax.faces.bean.ApplicationScoped;
 import javax.faces.bean.ManagedBean;
+
+import br.gov.laramara.entidade.Colaborador;
+import br.gov.laramara.repositorio.Banco;
 
 /**
  *
@@ -14,7 +16,7 @@ import javax.faces.bean.ManagedBean;
  */
 @ManagedBean(name = "colaboradorService")
 @ApplicationScoped
-public class ColaboradorService {
+public class ColaboradorDao {
 
     Colaborador colaborador;
     private String col;
@@ -36,10 +38,10 @@ public class ColaboradorService {
 
     }
 
-    public ColaboradorService() {
+    public ColaboradorDao() {
     }
 
-    public ColaboradorService(String colaborador) {
+    public ColaboradorDao(String colaborador) {
         this.col = colaborador;
     }
 
@@ -57,6 +59,6 @@ public class ColaboradorService {
 
     public List<Colaborador> createColaboradores() {
         List<Colaborador> list = new ArrayList<>();
-        return new RepositorioBase().obterTodos();
+        return new Banco().obterTodosOsColaBoradores();
     }
 }
