@@ -1,5 +1,6 @@
 package br.com.myapplication;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -80,9 +81,9 @@ public class ControladorTelaMenu extends AppCompatActivity
         // Handle navigation view item clicks here.
         int id = item.getItemId();
 
-        if (id == R.id.nav_camera) {
-            // Handle the camera action
-        } else if (id == R.id.nav_gallery) {
+        if (id == R.id.nav_cadastrar) {
+
+        } else if (id == R.id.nav_consultar) {
 
         } else if (id == R.id.nav_slideshow) {
 

@@ -29,5 +29,11 @@
     <string name="action_settings">Settings</string>
     <string name="logo_descrition_img">Imagem Logo do  Basilides de Godoy</string>
 
+    <!-- Texto  da tela de menu-->
+
+    <string name="texto_nav_cadastro">Cadastrar</string>
+    <string name="texto_nav_consulta">Consultar</string>
+    <string name="texto_nav_cadastro2">Cadastrar-2</string>
+    <string name="texto_nav_cadastro3">Cadastrar - 3</string>
 
 </resources>
