@@ -64,13 +64,24 @@ public class LivroBean implements Serializable{
 			//throw new RuntimeException("Livro deve ter pelo menos um Autor.");
 			 FacesContext.getCurrentInstance().addMessage("autor",  new FacesMessage("Livro deve ter pelo menos um Autor"));
 	            return;
-		}else {
-			new DAO<Livro>(Livro.class).adiciona(this.livro);
-            this.livro = new Livro();
 		}
-
-		
+		if(this.livro.getId()==null) {
+			new DAO<Livro>(Livro.class).adiciona(this.livro);
+		}else {
+			new DAO<Livro>(Livro.class).atualiza(this.livro);
+		}
 	}
+	
+	public void remover(Livro livro) {
+		System.out.println("Removendo livro");
+		new DAO<Livro>(Livro.class).remove(livro);
+	}
+	
+	public void carregar(Livro livro) {
+		this.livro  =  livro;
+		System.out.println("Atualizando livro");
+	}
+	
 	
 	//Criando validadores personalizados
 	public void comecaComDigitoUm(FacesContext fc,UIComponent component,Object value) throws ValidationException{
