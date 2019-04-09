@@ -78,14 +78,20 @@ public class ControladorTelaMenu extends AppCompatActivity
     @SuppressWarnings("StatementWithEmptyBody")
     @Override
     public boolean onNavigationItemSelected(MenuItem item) {
-        // Handle navigation view item clicks here.
         int id = item.getItemId();
 
         if (id == R.id.nav_cadastrar) {
-
+        Intent intentCadastrar = new Intent();
+        intentCadastrar.setClass(ControladorTelaMenu.this,
+                ControladorTelaCadastro.class);
+        startActivity(intentCadastrar);
         } else if (id == R.id.nav_consultar) {
+        Intent intentConsultar = new Intent();
+        intentConsultar.setClass(ControladorTelaMenu.this,
+                ControladorTelaConsulta.class);
+        startActivity(intentConsultar);
 
-        } else if (id == R.id.nav_slideshow) {
+        } else if (id == R.id.nav_cadastrar2) {
 
         } else if (id == R.id.nav_manage) {
 

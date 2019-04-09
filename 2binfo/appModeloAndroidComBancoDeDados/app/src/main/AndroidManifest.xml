@@ -13,13 +13,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ControladorTelaCadastro"
-            android:label="Tela de Cadastro! "
-
-            ></activity>
+        <activity
+            android:name=".ControladorTelaConsulta"
+            android:label="Tela de Consulta!"/>
+        <activity
+            android:name=".ControladorTelaCadastro"
+            android:label="Tela de Cadastro! " />
         <activity
             android:name=".ControladorTelaMenu"
-            android:label="@string/title_activity_controlador_tela_menu"
+            android:label="Tela de Menu"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".ControladorTelaLogin"
