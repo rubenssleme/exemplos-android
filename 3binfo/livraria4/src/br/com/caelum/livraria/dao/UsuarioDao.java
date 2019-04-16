@@ -18,6 +18,7 @@ public class UsuarioDao {
 		
 		try {
 			
+			@SuppressWarnings("unused")
 			Usuario resultado = query
 					.getSingleResult();
 		}catch (NoResultException e) {
