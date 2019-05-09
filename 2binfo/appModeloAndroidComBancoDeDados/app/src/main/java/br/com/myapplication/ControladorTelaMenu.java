@@ -79,7 +79,6 @@ public class ControladorTelaMenu extends AppCompatActivity
     @Override
     public boolean onNavigationItemSelected(MenuItem item) {
         int id = item.getItemId();
-
         if (id == R.id.nav_cadastrar) {
         Intent intentCadastrar = new Intent();
         intentCadastrar.setClass(ControladorTelaMenu.this,
@@ -100,7 +99,6 @@ public class ControladorTelaMenu extends AppCompatActivity
         } else if (id == R.id.nav_send) {
 
         }
-
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
         return true;

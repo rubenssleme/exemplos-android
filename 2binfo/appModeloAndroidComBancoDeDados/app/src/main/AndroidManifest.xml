@@ -25,7 +25,7 @@
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".ControladorTelaLogin"
-            android:label="@string/title_activity_controlador_tela_login" />
+            android:label="Tela de Login" />
         <activity
             android:name=".ControladorTelaSplash"
             android:configChanges="orientation|keyboardHidden|screenSize"

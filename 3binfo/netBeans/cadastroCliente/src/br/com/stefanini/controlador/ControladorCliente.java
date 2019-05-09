@@ -36,6 +36,10 @@ public class ControladorCliente  {
         repositorioCliente = new RepositorioCliente();
     }
 
+    
+    
+    
+    
     /* Inicializar o objeto cliente, passando os valores da tela */
     public Cliente inicializarObjeto(Cliente cliente) {
         cliente.setNome(jtfNome.getText());
