@@ -1,14 +1,10 @@
-package com.example.a3binfo.tccarctos;
-
 import android.os.AsyncTask;
-
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 
 public class FabricaConexao  extends AsyncTask {
     Connection con = null;
-
     @Override
     protected Object doInBackground(Object[] objects) {
         //BUROCRACIA

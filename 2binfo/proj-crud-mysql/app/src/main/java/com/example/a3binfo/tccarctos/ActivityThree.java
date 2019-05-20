@@ -19,10 +19,10 @@ public class ActivityThree extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_three);
 
-        TextView title =(TextView) findViewById(R.id.activityTitle3);
-        title.setText(" tchau ");
+      //  TextView title =(TextView) findViewById(R.id.activityTitle3);
+       // title.setText(" tchau ");
 
-        mMainNav = (BottomNavigationView) findViewById(R.id.main_nav);
+      //  mMainNav = (BottomNavigationView) findViewById(R.id.main_nav);
 
         Menu menu = mMainNav.getMenu();
         MenuItem menuItem = menu.getItem(3);

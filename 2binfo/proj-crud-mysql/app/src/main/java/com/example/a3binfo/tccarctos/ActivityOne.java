@@ -19,10 +19,10 @@ public class ActivityOne extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_one);
 
-        TextView title =(TextView) findViewById(R.id.activityTitle1);
-        title.setText(" olá ");
+      //  TextView title =(TextView) findViewById(R.id.activityTitle1);
+       // title.setText(" olá ");
 
-        mMainNav = (BottomNavigationView) findViewById(R.id.main_nav);
+      //  mMainNav = (BottomNavigationView) findViewById(R.id.main_nav);
 
         Menu menu = mMainNav.getMenu();
         MenuItem menuItem = menu.getItem(1);
