@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <!-- Incio do Linear Layout  Orientação Vertical-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/edtValor1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Valor 1"
+            android:inputType="number"
+            android:padding="30dp" />
+
+        <EditText
+            android:id="@+id/edtValor2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Valor 2"
+            android:inputType="number"
+            android:padding="30dp" />
+
+        <!-- Incio do Linear Layout  Orientação Horizontal 1-->
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <!-- Incio do Button  btnSomar -->
+            <Button
+                android:id="@+id/btnSomar"
+                android:layout_width="137dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.4"
+                android:background="#4CAF50"
+                android:text="@string/btn_somar" /><!-- Fim do Button  btnSomar -->
+            <!-- Incio do Button  btnSubtrair -->
+            <Button
+                android:id="@+id/btnSubtrair"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.6"
+                android:background="#F44336"
+                android:text="@string/btn_subtrair" /><!-- Fim do Button  btnSubtrair -->
+        </LinearLayout>
+        <!-- Fim do Linear Layout  Orientação Horizontal 1-->
+
+        <!-- Incio do Linear Layout  Orientação Horizontal 2-->
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="72dp"
+            android:orientation="horizontal">
+            <!-- Incio do Button  btnMultiplicar -->
+            <Button
+                android:id="@+id/btnMultiplicar"
+                android:layout_width="139dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.4"
+                android:background="#2196F3"
+                android:text="@string/btn_multiplicar" /><!-- Fim do Button  btnMultiplicar -->
+            <!-- Incio do Button  btnDividir -->
+            <Button
+                android:id="@+id/btnDividir"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.6"
+                android:background="#FFC107"
+                android:text="@string/btn_dividir" /><!-- Fim do Button  btnDividir -->
+
+        </LinearLayout>
+        <!-- Incio do Linear Layout  Orientação Horizontal 2-->
+
+        <!-- Incio do TextView  -->
+        <TextView
+            android:id="@+id/txvResultado"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Resultado da Operação"
+            android:textColor="#673AB7"
+            android:textSize="36sp"
+            android:textStyle="bold" /> <!-- Fim do TextView  -->
+    </LinearLayout>
+    <!-- Fim do Linear Layout  Orientação Vertical -->
+</androidx.constraintlayout.widget.ConstraintLayout>

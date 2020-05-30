@@ -1,0 +1,22 @@
+1) Tecla do Windows + Tab: Ativa do gerenciador de tarefas;
+2) Tecla do Windows + A: Ativa o Action Center;
+3) Tecla do Windows + C: Ativa a Cortana com a fala;
+4) Tecla do Windows + D: Mostra a área de trabalho;
+5) Tecla do Windows + E: Abre o pesquisador de arquivos;
+6) Tecla do Windows + G: Ativa o novo recurso de Xbox para gravar jogos ou capturar imagens da tela;
+7) Tecla do Windows + H: Ativa o recurso de compartilhamento nos aplicativos do Windows 10;
+8) Tecla do Windows + I: Abre as configurações do sistema;
+9) Tecla do Windows + K: Ativa o recurso Conectar para transmitir para monitores sem fio e dispositivos de áudio;
+10) Tecla do Windows + L: Bloqueia a máquina;
+11) Tecla do Windows + P: Projeta uma tela;
+12) Tecla do Windows + R: Executa um comando;
+13) Tecla do Windows + S: Ativa o Cortana;
+14) Tecla do Windows + X: Abre as configurações do uso de energia;
+15) Tecla do Windows + Seta para Direita/Esquerda/Cima/Baixo: 
+Para fixar aplicativos do lado de uma tela. Pressione as setas para cima/baixo após ter usado as setas para direita/
+esquerda para poder fixar até quatro aplicativos de uma vez;
+16) Tecla do Windows + Ctrl + D: Cria uma nova área de trabalho virtual;
+17) Tecla do Windows + Ctrl + F4: Fecha uma área de trabalho virtual;
+18) Tecla do Windows + Ctrl + Seta para direita/esquerda: Alterna entre áreas de trabalho virtuais;
+19) Tecla do Windows + Shift + Seta para direita/esquerda: Move aplicativos de um monitor para outro;
+20) Tecla do Windows + 1/2/3… : Abre programas que estão fixados na barra de tarefas. O primeiro é o número 1 e  assim por diante.

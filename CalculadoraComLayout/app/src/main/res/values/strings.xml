@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">CalculadoraComLayout</string>
+    <string name="btn_somar">Somar</string>
+    <string name="btn_subtrair">Subtrair</string>
+    <string name="btn_multiplicar">Multiplicar</string>
+    <string name="btn_dividir">Dividir</string>
+
+</resources>

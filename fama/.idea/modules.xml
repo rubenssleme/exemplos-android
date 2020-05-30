@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://D:/01-projetos/bg-godoy/3tcbg_android/Fama/Fama.iml" filepath="D:/01-projetos/bg-godoy/3tcbg_android/Fama/Fama.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Fama.iml" filepath="$PROJECT_DIR$/Fama.iml" />
+      <module fileurl="file://D:/01-projetos/bg-godoy/3tcbg_android/Fama/app/app.iml" filepath="D:/01-projetos/bg-godoy/3tcbg_android/Fama/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/fama.iml" filepath="$PROJECT_DIR$/.idea/fama.iml" />
+    </modules>
+  </component>
+</project>

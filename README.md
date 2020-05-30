@@ -1,28 +1,16 @@
-﻿
-# Repositorio de projetos de Android e Java#
+﻿# Repositorio de apps Android#
 
 Esse README normalmente documentaria quais são as etapas necessárias para que sua aplicação seja executada.
-Repositório para projetos com alunos da Etec Professor Basilides de Godoy, todos os modulos noite.
-
 
 ### Para que serve esse repositório? ###
 
-* Sumario rápido
-Armazenar e documentar as ferramentas necessárias para programar em  "Android" e "Java" . 
+* Sumario rapido
+ Armazenar e documentar as ferramentas necessárias para baixar e programar o client do "Android". 
 * Version
- 1.0.1
-* [Learn Markdown](https://guides.github.com/features/mastering-markdown/)
+ 1.0
+* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
 
-### Observações ###
-* Aqui seram colocas as observações.
-
- #### Diagrama de Arquivos: <h4>
- ```Java
- ReadMe principal.
- |====> ReadMe 1binfo
- ||=======> ReadMe 2binfo
- |||===========> ReadMe 3binfo
-```
+### Observações  ###
 
 
 ### Como faço para configurar? ###
@@ -43,7 +31,6 @@ Armazenar e documentar as ferramentas necessárias para programar em  "Android" 
 
 
 ### Licença ###
-Este material foi criado  e esta sendo mantido por Rubens Leme - Analista desenvolvedor Java e  Professor da Etec Basilides de Godoy, lançado no domínio público. Sinta-se livre para usar e adaptar como quiser. Para entrar em contato, acesse-me no Skype ou no e-mail.
-* e-mail:rubenss.leme@gmail.com
-* linkedin:www.linkedin.com/in/rubens-leme
-* skype:rubens.leme@uol.com.br
+Este projeto é criado por Rubens Leme e Luis Davi e lançado no domínio público. Sinta-se livre para usar e adaptar como quiser. Para entrar em contato, acesse-me no Skype ou no e-mail.
+ e-mail:rubenss.leme@gmail.com
+  skype:rubens.leme@uol.com.br

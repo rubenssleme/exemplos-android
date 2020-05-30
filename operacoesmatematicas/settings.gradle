@@ -1,0 +1,2 @@
+rootProject.name='operacoes-matematicas'
+include ':app'

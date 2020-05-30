@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Calculadora</string>
+
+    <string name="hintN2">Número 2</string>
+    <string name="hintN1">Número 1</string>
+
+    <string name="btnSomar">Somar</string>
+    <string name="btnSubtrair">Subtrair</string>
+
+</resources>

@@ -1,0 +1,7 @@
+#Mon Nov 11 23:36:15 BRST 2019
+base.0=/home/bg/Documents/Exemplos-Git/ConexaoMysql_AssyncTask_Molinari/app/build/intermediates/dex/debug/mergeExtDexDebug/out/classes.dex
+path.1=classes.dex
+renamed.1=classes2.dex
+path.0=classes.dex
+renamed.0=classes.dex
+base.1=/home/bg/Documents/Exemplos-Git/ConexaoMysql_AssyncTask_Molinari/app/build/intermediates/dex/debug/mergeProjectDexDebug/out/classes.dex

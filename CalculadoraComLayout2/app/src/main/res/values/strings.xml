@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">CalculadoraComLayout</string>
+    <string name="btn_soma">Somar</string>
+    <string name="btn_subtracao">Subtração</string>
+    <string name="btn_multiplicacao">Multiplicação</string>
+    <string name="btn_divisao">Divisão</string>
+</resources>

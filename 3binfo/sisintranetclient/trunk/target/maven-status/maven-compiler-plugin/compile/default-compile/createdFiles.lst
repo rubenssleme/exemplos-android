@@ -1,9 +1,0 @@
-br\gov\laramara\bean\RamalBean.class
-br\gov\laramara\dao\impl\ColaboradorDaoImpl.class
-br\gov\laramara\dao\ColaboradorDao.class
-br\gov\laramara\dao\RamalDao.class
-br\gov\laramara\entidade\Colaborador.class
-br\gov\laramara\repositorio\Banco.class
-br\gov\laramara\bean\ColaboradorBean.class
-br\gov\laramara\dao\impl\RamalDaoImpl.class
-br\gov\laramara\entidade\Ramal.class
