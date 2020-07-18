@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/verde_telas_fundo"
+    android:orientation="vertical"
+    android:padding="10dp" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@color/laranja"
+            android:gravity="center" >
+
+            <TextView
+                android:id="@+id/tvCursoVB"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableTop="@drawable/vb"
+                android:gravity="center"
+                android:text="Curso VB"
+                android:textColor="@color/branco" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@color/azul"
+            android:gravity="center" >
+
+            <TextView
+                android:id="@+id/tvCursoJava"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableTop="@drawable/java"
+                android:gravity="center"
+                android:text="Curso Java"
+                android:textColor="@color/branco" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@color/verde_md"
+            android:gravity="center" >
+
+            <TextView
+                android:id="@+id/tvCursoCSharp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableTop="@drawable/c_sharp"
+                android:gravity="center"
+                android:text="Curso C#"
+                android:textColor="@color/branco" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@color/vermelho"
+            android:gravity="center" >
+
+            <TextView
+                android:id="@+id/tvCursoAndroid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableTop="@drawable/android"
+                android:gravity="center"
+                android:text="Curso Android"
+                android:textColor="@color/branco" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textViewLabelDadosLocacao"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Entre com dados da locação:"
+                android:textAlignment="center"
+                android:textColor="#F44336"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/editTextModeloCarro"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Modelo do Carro: Civic"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/editTextDataRetirada"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Retirada (dd/MM/yyyy hh:mm): 25/06/2018 10:30"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/editTextDataEntrega"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Entrega (dd/MM/yyyy hh:mm): 25/06/2018 14:40"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/editTextValorHora"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Entre com valor por hora: 10.00"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/editTextValorDia"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Entre com valor por dia:   130.00"
+                android:inputType="textPersonName" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/buttonEnviar"
+                    android:layout_width="206dp"
+                    android:layout_height="wrap_content"
+                    android:text="Enviar" />
+
+                <Button
+                    android:id="@+id/buttonCancelar"
+                    android:layout_width="206dp"
+                    android:layout_height="wrap_content"
+                    android:text="Cancelar" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textViewLabelDadosFatura"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dados da Locação:"
+                android:textAlignment="center"
+                android:textColor="#3F51B5"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textViewValorDadosFatura"
+                android:layout_width="match_parent"
+                android:layout_height="409dp"
+                android:hint=" Valor sem imposto :  50.00
+                \n Valor do Imposto:      10.00
+                \n Total com Imposto:   60.00"
+                android:textSize="20sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

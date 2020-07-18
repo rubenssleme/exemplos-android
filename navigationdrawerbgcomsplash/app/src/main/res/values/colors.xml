@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Cores do thema  -->
+    <color name="colorPrimary">#009688</color>
+    <color name="colorPrimaryDark">#004D40</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <!-- Cor Verde  -->
+    <color name="colorTeal">#009688</color>
+    <color name="colorTeal_50">#E0F2F1</color>
+    <color name="colorTeal_100">#B2DFDB</color>
+
+</resources>

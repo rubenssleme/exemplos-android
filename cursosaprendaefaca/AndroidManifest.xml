@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.aprendaefaca.cursos"
+    android:versionCode="3"
+    android:versionName="1.3" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="22" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/texto_nome_do_aplicativo"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".controladores.activities.ControladorTelaActivitySplash_"
+            android:label="@string/texto_nome_do_aplicativo" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".controladores.activities.ControladorTelaActivityPrincipal_" />
+        <activity android:name=".controladores.fragments.ControladorTelaFragmentCursos_" />
+        <activity android:name=".controladores.fragments.ControladorFragmentTelaSobre_" />
+        <activity android:name=".controladores.fragments.ControladorTelaFragmentConfiguracao_" />
+        <activity android:name=".adaptadores.opcao.AdaptadorOpcoes" />
+        <activity android:name=".controladores.activities.ControladorTelaActivityBase_" />
+    </application>
+
+</manifest>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="azul_laramara">#BBDEFB</color>
+     <color name="bt_azul_laramara">#0D47A1</color>
+
+    <color name="laranja">#ff9933</color>
+    <color name="verde_md">#004D40</color>
+    <color name="verde_splash">#B2DFDB</color>
+    <color name="verde_telas_fundo">#26A69A</color>
+    <color name="azul">#33ccff</color>
+    <color name="vermelho">#ff5555</color>
+    <color name="branco">#ffffff</color>
+    <color name="preto">#000000</color>
+    
+
+</resources>

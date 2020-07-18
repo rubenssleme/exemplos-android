@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- App -->
+    <string name="texto_nome_do_aplicativo">Aprenda e Faça Cursos</string>
+
+    <!-- Action Bar -->
+    <string name="texto_actionbar_titulo_opcoes">Opções</string>
+    <string name="texto_actionbar_configuracoes">Configurações</string>
+    <string name="texto_actionbar_sobre">Sobre</string>
+    <string name="texto_actionbar_sair">Sair</string>
+	
+    <!-- Navigation Drawer -->
+    <string name="texto_drawer_open">Open drawer</string>
+    <string name="texto_drawer_close">Close drawer</string>
+
+    <!-- Tela Configuracoes -->
+    <string name="texto_botao_enviar">Enviar</string>
+
+    <!-- Tela Splash -->
+    <string name="imagem_splash_aprenda_e_faca">Tela de Splash Aprenda e Faca</string>
+    <!-- Tela Sobre -->
+    <string name="texto_aplicativo_aprenda_e_faca">Aplicativo Aprenda e Faca</string>
+    <string name="texto_desenvolvimento_de_software">2008&#8211;2015 aprendaefaca.com</string>
+    <string name="imagem_aprenda_e_faca_tecnologia">Imagem Aprenda e Faca. Tecnologia Simples e Facil.</string>
+
+</resources>

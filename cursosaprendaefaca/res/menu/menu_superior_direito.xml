@@ -1,0 +1,33 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.aprendaefaca.MainActivity" >
+
+    <item
+        android:id="@+id/action_settings"
+        android:icon="@drawable/ic_opcoes"
+        android:showAsAction="ifRoom"
+        android:title="@string/texto_actionbar_titulo_opcoes">
+        <menu>
+            <item
+                android:id="@+id/action_configuracoes"
+                android:icon="@drawable/ic_configuracoes"
+                android:orderInCategory="100"
+                android:showAsAction="never"
+                android:title="@string/texto_actionbar_configuracoes"/>
+            <item
+                android:id="@+id/action_sobre"
+                android:icon="@drawable/ic_sobre"
+                android:orderInCategory="100"
+                android:showAsAction="ifRoom"
+                android:title="@string/texto_actionbar_sobre"/>
+           
+            <item
+                android:id="@+id/action_sair"
+                android:icon="@drawable/ic_sair"
+                android:orderInCategory="100"
+                android:showAsAction="never"
+                android:title="@string/texto_actionbar_sair"/>
+        </menu>
+    </item>
+
+</menu>

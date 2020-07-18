@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- Principal -->
+    <string name="nome_do_aplicativo">Nota Paulista Laramara</string>
+    <string name="action_settings">Settings</string>
+    <!-- Nome das Telas -->
+    <string name="nome_tela_nota_fiscal">Tela Nota Fiscal</string>
+    <string name="nome_tela_principal">Tela Principal</string>
+    <!-- Botoes -->
+    <string name="botao_doar_nota_fiscal">Doar Nota Fiscal</string>
+    <string name="botao_quem_somos">Quem Somos</string>
+    <string name="botao_como_ajudar">Como Ajudar?</string>
+    <string name="botao_fotografar_nota_fiscal">Fotografar Nota Fiscal</string>
+    <string name="botao_sair">Sair</string>
+    <!-- Imagens -->
+    <string name="imagem_logotipo_laramara">Logotipo da Laramara, cor azul com cor de fundo branco.</string>
+    <string name="imagem_exemplo_nota_fiscal">Imagem de exemplo de nota fiscal com os campos importantes marcados.</string>
+    <!-- Informacoes -->
+    <string name="info_tela_principal_breve_descricao">Utilize as opções abaixo para navegar, descobrir e fazer sua contribuição para a Laramara.</string>
+    <string name="info_tela_nota_fiscal_envio_nota_fiscal">Envie sua nota fiscal sem CPF para que seja doada a Laramara.</string>
+    <string name="info_tela_nota_fiscal_envio_nota_fiscal_2">Caso a nota seja muito grande, dobre para que o CNPJ, Data de Compra, COO e Valor Total da compra estejam visíveis.</string>
+
+</resources>
