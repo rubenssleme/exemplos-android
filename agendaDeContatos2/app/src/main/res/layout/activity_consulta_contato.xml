@@ -17,8 +17,14 @@
             android:layout_height="87dp"
             app:srcCompat="@mipmap/ic_contato" />
 
+        <Button
+            android:id="@+id/buttonAdicionarNovo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Novo Contato" />
+
         <ListView
-            android:id="@+id/listViewContatos"
+            android:id="@+id/listViewContato"
             android:layout_width="match_parent"
             android:layout_height="match_parent" />
     </LinearLayout>
