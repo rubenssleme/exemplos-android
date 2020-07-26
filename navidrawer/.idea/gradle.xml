@@ -9,8 +9,8 @@
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="modules">
           <set>
-            <option value="/mnt/hgfs/ambiente-dev/workspace-android/rubensLeme-BG/navidrawer" />
-            <option value="/mnt/hgfs/ambiente-dev/workspace-android/rubensLeme-BG/navidrawer/app" />
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/app" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

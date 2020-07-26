@@ -20,7 +20,7 @@
                 android:id="@+id/imageView"
                 android:layout_width="match_parent"
                 android:layout_height="271dp"
-                app:srcCompat="@mipmap/ic_contato" />
+                app:srcCompat="@mipmap/ic_logo_bg_foreground" />
 
             <EditText
                 android:id="@+id/editTextNomeContato"
@@ -66,14 +66,18 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="Salvar" />
+                    android:background="@drawable/my_button_bg"
+                    android:text="Salvar"
+                    android:textColor="#FFFFFF" />
 
                 <Button
                     android:id="@+id/buttonConsultar"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="Cancelar" />
+                    android:background="@drawable/my_button_bg"
+                    android:text="Cancelar"
+                    android:textColor="#FFFFFF" />
             </LinearLayout>
 
         </LinearLayout>

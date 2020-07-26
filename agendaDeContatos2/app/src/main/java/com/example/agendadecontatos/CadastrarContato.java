@@ -27,6 +27,7 @@ public class CadastrarContato extends AppCompatActivity {
         editTextEndereco = findViewById(R.id.editTextEnderecoContato);
         buttonSalvar = findViewById(R.id.buttonSalvarContato);
         buttonSalvar.setOnClickListener(new View.OnClickListener() {
+
             @Override
             public void onClick(View v) {
                 DtoContato dtoContato = new DtoContato(editTextNome.getText().toString(),
@@ -42,7 +43,6 @@ public class CadastrarContato extends AppCompatActivity {
                     Log.d("Erro-ao-inserir: ", ex.toString());
                     Toast.makeText(CadastrarContato.this, "Erro ao Inserido: " + ex.toString(), Toast.LENGTH_SHORT).show();
                 }
-
             }
         });
     }

@@ -3,9 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/NaviDrawer.iml" filepath="$PROJECT_DIR$/NaviDrawer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Rubens-BG-navidrawer.iml" filepath="$PROJECT_DIR$/.idea/modules/Rubens-BG-navidrawer.iml" group="navidrawer" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Rubens-BG-navidrawer-app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Rubens-BG-navidrawer-app.iml" group="navidrawer/app" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1544354154/navidrawer.iml" filepath="$PROJECT_DIR$/.idea/modules/1544354154/navidrawer.iml" group="navidrawer" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/819268604/navidrawer-app.iml" filepath="$PROJECT_DIR$/.idea/modules/819268604/navidrawer-app.iml" group="navidrawer/app" />
     </modules>
   </component>
 </project>

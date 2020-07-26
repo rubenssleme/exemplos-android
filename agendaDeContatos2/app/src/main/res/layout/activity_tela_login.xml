@@ -19,8 +19,8 @@
             <ImageView
                 android:id="@+id/imageView4"
                 android:layout_width="match_parent"
-                android:layout_height="246dp"
-                tools:srcCompat="@tools:sample/avatars" />
+                android:layout_height="301dp"
+                app:srcCompat="@mipmap/ic_logo_bg_foreground" />
 
             <EditText
                 android:id="@+id/editTextUsuario"
@@ -47,17 +47,25 @@
 
                 <Button
                     android:id="@+id/buttonEnviar"
+                    style="@style/Widget.AppCompat.Button"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="Enviar" />
+                    android:background="@drawable/my_button_bg"
+                    android:text="Enviar"
+                    android:textColor="#FFFFFF"
+                    android:textStyle="bold" />
 
                 <Button
                     android:id="@+id/buttonCancelar"
+                    style="@style/Widget.AppCompat.Button"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="Cancelar" />
+                    android:background="@drawable/my_button_bg"
+                    android:text="Cancelar"
+                    android:textColor="#FFFFFF"
+                    android:textStyle="bold" />
             </LinearLayout>
         </LinearLayout>
 

@@ -16,6 +16,7 @@ EditText editTextUsuario;
 EditText editTextSenha;
 //Usuario e senha de teste.
 DtoLogin dtoLogin = new DtoLogin("Rubens","admin","admin");
+DtoLogin dao;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -46,6 +47,10 @@ DtoLogin dtoLogin = new DtoLogin("Rubens","admin","admin");
 
     }
      private  void logar(String usuario, String senha){
+       // DtoLogin dtoLogin = dao.
+
+
+
         if(dtoLogin.autenticar(usuario,senha)){
             //Ir para a tela de menu.
             Intent telaMenu = new Intent(getApplicationContext(),MainActivity.class);

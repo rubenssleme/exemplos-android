@@ -24,9 +24,13 @@ public class ConsultaContato extends AppCompatActivity {
         listViewContato = findViewById(R.id.listViewContato);
         DaoContato daoContato = new DaoContato(getApplicationContext());
 
-        arrayListContato = daoContato.consultarTodos();
+     arrayListContato = daoContato.consultarTodos();
         ArrayAdapter adapter = new ArrayAdapter(getApplicationContext(),android.R.layout.simple_list_item_1,arrayListContato);
+
         listViewContato.setAdapter(adapter);
+
+
+
         cadastrarNovoContato();
     }
 

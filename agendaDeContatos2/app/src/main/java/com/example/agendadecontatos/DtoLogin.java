@@ -1,9 +1,14 @@
 package com.example.agendadecontatos;
 
 public class DtoLogin {
+    private int id;
     private String nome;
     private String usuario;
     private String senha;
+
+    public DtoLogin() {
+
+    }
 
     public DtoLogin(String nome, String usuario, String senha) {
         this.nome = nome;
@@ -11,10 +16,17 @@ public class DtoLogin {
         this.senha = senha;
     }
 
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
     public String getNome() {
         return nome;
     }
-
     public void setNome(String nome) {
         this.nome = nome;
     }
@@ -22,7 +34,6 @@ public class DtoLogin {
     public String getUsuario() {
         return usuario;
     }
-
     public void setUsuario(String usuario) {
         this.usuario = usuario;
     }
@@ -30,7 +41,6 @@ public class DtoLogin {
     public String getSenha() {
         return senha;
     }
-
     public void setSenha(String senha) {
         this.senha = senha;
     }
@@ -42,4 +52,12 @@ public class DtoLogin {
        return false;
     }
 
+    @Override
+    public String toString() {
+        return "DtoLogin{" +
+                "nome='" + nome + '\'' +
+                ", usuario='" + usuario + '\'' +
+                ", senha='" + senha + '\'' +
+                '}';
+    }
 }
