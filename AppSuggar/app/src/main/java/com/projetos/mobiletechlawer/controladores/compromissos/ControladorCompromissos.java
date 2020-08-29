@@ -27,9 +27,7 @@ public class ControladorCompromissos extends AppCompatActivity implements View.O
     private EditText edt_data;
     private EditText edt_local;
     private EditText edt_descricao;
-
     private Switch switch_dia_todo;
-
     private Button btnDatePicker;
     private Button btn_local;
     private Button btn_salvar_compromisso;

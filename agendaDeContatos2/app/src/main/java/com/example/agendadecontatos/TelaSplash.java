@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+
 import java.util.Timer;
 import java.util.TimerTask;
 
@@ -19,14 +20,14 @@ public class TelaSplash extends AppCompatActivity {
     }
 
     private void inicializarTelaLogin() {
-    new Timer().schedule(new TimerTask() {
-        @Override
-        public void run() {
-           finish();
-           Intent telaLogin = new Intent(getApplicationContext(),TelaLogin.class);
-           startActivity(telaLogin);
-        }
-    },TEMPO);
+        new Timer().schedule(new TimerTask() {
+            @Override
+            public void run() {
+                finish();
+                Intent telaLogin = new Intent(getApplicationContext(), TelaLogin.class);
+                startActivity(telaLogin);
+            }
+        }, TEMPO);
 
     }
 

@@ -20,7 +20,7 @@
         </activity>
         <activity
             android:name=".TelaLogin"
-            android:label="Tela login"></activity>
+            android:label="Login"></activity>
         <activity
             android:name=".ConsultaContato"
             android:label="Consulta Contato" />

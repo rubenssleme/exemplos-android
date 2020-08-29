@@ -9,5 +9,6 @@ public class ControladorTelaCadastro extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.tela_cadastro);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }
 }
