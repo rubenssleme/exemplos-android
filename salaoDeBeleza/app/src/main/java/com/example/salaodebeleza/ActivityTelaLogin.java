@@ -22,7 +22,7 @@ Button buttonEnviar;//Declaração do objeto botão
         buttonEnviar.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    Intent telaMenu = new Intent(getApplicationContext(),ActivityTelaMenu.class);
+                    Intent telaMenu = new Intent(getApplicationContext(), ActivityTelaMenu.class);
                     startActivity(telaMenu);
                 }
         });
