@@ -6,6 +6,7 @@ import android.view.View;
 import android.view.Menu;
 import android.widget.Toast;
 
+import com.example.appsalaodebeleza.ui.slideshow.SlideshowFragment;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.android.material.snackbar.Snackbar;
 import com.google.android.material.navigation.NavigationView;
@@ -31,7 +32,7 @@ public class ActivityTelaMenu extends AppCompatActivity {
         setContentView(R.layout.activity_menu);
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-        FloatingActionButton fab = findViewById(R.id.fab);
+        final FloatingActionButton fab = findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -44,7 +45,7 @@ public class ActivityTelaMenu extends AppCompatActivity {
         // Passing each menu ID as a set of Ids because each
         // menu should be considered as top level destinations.
         mAppBarConfiguration = new AppBarConfiguration.Builder(
-                R.id.nav_home, R.id.nav_gallery, R.id.nav_slideshow)
+                R.id.nav_gallery, R.id.nav_home, R.id.nav_slideshow)
                 .setDrawerLayout(drawer)
                 .build();
         NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment);
@@ -54,19 +55,18 @@ public class ActivityTelaMenu extends AppCompatActivity {
         navController.addOnDestinationChangedListener(new NavController.OnDestinationChangedListener() {
             @Override
             public void onDestinationChanged(@NonNull NavController controller, @NonNull NavDestination destination, @Nullable Bundle arguments) {
-
-               int menuId  = destination.getId();
+                int menuId  = destination.getId();
                 switch (menuId) {
                     case R.id.nav_slideshow:
-                        startActivity(new Intent(getApplicationContext(), CadastroActivity.class));
+                        fab.setVisibility(View.VISIBLE);
                         break;
                     default:
-
-                        Toast.makeText(ActivityTelaMenu.this, "Continua na mesma", Toast.LENGTH_SHORT).show();
+                        fab.setVisibility(View.INVISIBLE);
                         break;
                 }
             }
         });
+
     }
 
     @Override

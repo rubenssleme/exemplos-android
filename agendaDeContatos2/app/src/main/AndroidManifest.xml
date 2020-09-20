@@ -27,7 +27,7 @@
         <activity
             android:name=".CadastrarContato"
             android:label="Cadastro Contato" />
-        <activity android:name=".MainActivity" />
+        <activity android:name=".MainActivity" android:label="Menu" />
     </application>
 
 </manifest>
