@@ -43,6 +43,7 @@ Button buttonSalvar;
             @Override
             public void onClick(View v) {
                 Toast.makeText(getContext(), "Indo para a activity consulta cliente!!", Toast.LENGTH_SHORT).show();
+
             }
         });
 

@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.view.Menu;
+import android.widget.Button;
 import android.widget.Toast;
 
 import com.example.appsalaodebeleza.ui.slideshow.SlideshowFragment;
@@ -28,6 +29,8 @@ public class ActivityTelaMenu extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+
+
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_menu);
         Toolbar toolbar = findViewById(R.id.toolbar);
@@ -55,9 +58,9 @@ public class ActivityTelaMenu extends AppCompatActivity {
         navController.addOnDestinationChangedListener(new NavController.OnDestinationChangedListener() {
             @Override
             public void onDestinationChanged(@NonNull NavController controller, @NonNull NavDestination destination, @Nullable Bundle arguments) {
-                int menuId  = destination.getId();
+                int menuId = destination.getId();
                 switch (menuId) {
-                    case R.id.nav_slideshow:
+                    case R.id.nav_gallery:
                         fab.setVisibility(View.VISIBLE);
                         break;
                     default:
@@ -66,11 +69,11 @@ public class ActivityTelaMenu extends AppCompatActivity {
                 }
             }
         });
-
     }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
+
         // Inflate the menu; this adds items to the action bar if it is present.
         getMenuInflater().inflate(R.menu.activity_tela_menu, menu);
         return true;
@@ -78,6 +81,7 @@ public class ActivityTelaMenu extends AppCompatActivity {
 
     @Override
     public boolean onSupportNavigateUp() {
+
         NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment);
         return NavigationUI.navigateUp(navController, mAppBarConfiguration)
                 || super.onSupportNavigateUp();
