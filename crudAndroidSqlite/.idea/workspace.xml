@@ -1,0 +1,572 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9be9cdf3-8152-4e54-b38d-312ca995d8f1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../AppSuggar/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/../AppSuggar/.idea/caches/build_file_checksums.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CalculadoraComLayout2/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CalculadoraComLayout2/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CalculadoraComLayout2/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CalculadoraComLayout2/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CalculadoraComLayout2/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CalculadoraComLayout2/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CalculadoraComLayout2/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CalculadoraComLayout2/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CalculadoraComLayout2/app/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CalculadoraComLayout2/app/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CalculadoraComLayout2/app/src/androidTest/java/com/example/calculadoracomlayout/ExampleInstrumentedTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CalculadoraComLayout2/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CalculadoraComLayout2/app/src/main/java/com/example/calculadoracomlayout/MainActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CalculadoraComLayout2/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CalculadoraComLayout2/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CalculadoraComLayout2/app/src/main/res/layout/activity_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CalculadoraComLayout2/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CalculadoraComLayout2/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CalculadoraComLayout2/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CalculadoraComLayout2/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CalculadoraComLayout2/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CalculadoraComLayout2/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CalculadoraComLayout2/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CalculadoraComLayout2/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CalculadoraComLayout2/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CalculadoraComLayout2/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CalculadoraComLayout2/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CalculadoraComLayout2/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CalculadoraComLayout2/app/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CalculadoraComLayout2/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CalculadoraComLayout2/app/src/main/res/values/styles.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CalculadoraComLayout2/app/src/test/java/com/example/calculadoracomlayout/ExampleUnitTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CalculadoraComLayout2/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CalculadoraComLayout2/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CalculadoraComLayout2/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CalculadoraComLayout2/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CalculadoraComLayout2/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CalculadoraComLayout2/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CalculadoraComLayout2/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-rest/appViagens/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-rest/appViagens/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-rest/appViagens/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-rest/appViagens/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-rest/appViagens/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-rest/appViagens/.settings/org.eclipse.m2e.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-rest/appViagens/bin/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-rest/appViagens/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-rest/appViagens/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-rest/appViagens/src/test/java/br/com/timtec/AppViagensApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-rest/appViagens/src/test/java/main/java/br/com/timtec/AppViagensApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-rest/appViagens/src/test/java/main/java/br/com/timtec/CustomConfigRest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-rest/appViagens/src/test/java/main/java/br/com/timtec/model/Hotel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-rest/appViagens/src/test/java/main/java/br/com/timtec/repositories/HotelRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../appsisnfp/trunk/SisNfp/.factorypath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../appsisnfp/trunk/SisNfp/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../appsisnfp/trunk/SisNfp/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../appsisnfp/trunk/SisNfp/apk-e-senha/appSisNfp-Keystore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../appsisnfp/trunk/SisNfp/apk-e-senha/appsisnfp-v1.apk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../appsisnfp/trunk/SisNfp/apk-e-senha/appsisnfp-v2.apk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../appsisnfp/trunk/SisNfp/apk-e-senha/password.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../appsisnfp/trunk/SisNfp/assets/application.producao.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../appsisnfp/trunk/SisNfp/assets/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../appsisnfp/trunk/SisNfp/bin/.factorypath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../appsisnfp/trunk/SisNfp/bin/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../appsisnfp/trunk/SisNfp/bin/.settings/org.eclipse.jdt.apt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../appsisnfp/trunk/SisNfp/bin/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../appsisnfp/trunk/SisNfp/bin/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../appsisnfp/trunk/SisNfp/bin/androidannotations.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../appsisnfp/trunk/SisNfp/bin/apk-e-senha/appSisNfp-Keystore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../appsisnfp/trunk/SisNfp/bin/apk-e-senha/appsisnfp-v1.apk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../appsisnfp/trunk/SisNfp/bin/apk-e-senha/appsisnfp-v2.apk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../appsisnfp/trunk/SisNfp/bin/apk-e-senha/password.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../appsisnfp/trunk/SisNfp/bin/assets/application.producao.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../appsisnfp/trunk/SisNfp/bin/assets/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../appsisnfp/trunk/SisNfp/bin/docs/Breve descrição_Play_App.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../appsisnfp/trunk/SisNfp/bin/docs/Urna.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../appsisnfp/trunk/SisNfp/bin/docs/Urna2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../appsisnfp/trunk/SisNfp/bin/docs/tela_fotografar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../appsisnfp/trunk/SisNfp/bin/docs/tela_principal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../appsisnfp/trunk/SisNfp/bin/docs/tela_splash.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../appsisnfp/trunk/SisNfp/bin/ic_launcher-web.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../appsisnfp/trunk/SisNfp/bin/jarlist.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../appsisnfp/trunk/SisNfp/bin/proguard-project.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../appsisnfp/trunk/SisNfp/bin/project.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../appsisnfp/trunk/SisNfp/bin/res/drawable-hdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../appsisnfp/trunk/SisNfp/bin/res/drawable-ldpi/exemplo_nf.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../appsisnfp/trunk/SisNfp/bin/res/drawable-ldpi/logo_laramara.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../appsisnfp/trunk/SisNfp/bin/res/drawable-ldpi/logo_nota_fiscal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../appsisnfp/trunk/SisNfp/bin/res/drawable-mdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../appsisnfp/trunk/SisNfp/bin/res/drawable-web/web_hi_res_512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../appsisnfp/trunk/SisNfp/bin/res/drawable-xhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../appsisnfp/trunk/SisNfp/bin/res/drawable-xxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../appsisnfp/trunk/SisNfp/bin/res/drawable-xxxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../appsisnfp/trunk/SisNfp/bin/res/layout/activity_tela_nota_fiscal.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../appsisnfp/trunk/SisNfp/bin/res/layout/activity_tela_principal.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../appsisnfp/trunk/SisNfp/bin/res/layout/activity_tela_splash.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../appsisnfp/trunk/SisNfp/bin/res/menu/main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../appsisnfp/trunk/SisNfp/bin/res/values-v11/styles.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../appsisnfp/trunk/SisNfp/bin/res/values-v14/styles.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../appsisnfp/trunk/SisNfp/bin/res/values-w820dp/dimens.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../appsisnfp/trunk/SisNfp/bin/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../appsisnfp/trunk/SisNfp/bin/res/values/dimens.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../appsisnfp/trunk/SisNfp/bin/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../appsisnfp/trunk/SisNfp/bin/res/values/styles.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../appsisnfp/trunk/SisNfp/docs/Breve descrição_Play_App.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../appsisnfp/trunk/SisNfp/docs/Urna.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../appsisnfp/trunk/SisNfp/docs/Urna2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../appsisnfp/trunk/SisNfp/docs/Urna21x12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../appsisnfp/trunk/SisNfp/docs/Urna21x12_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../appsisnfp/trunk/SisNfp/docs/tela_fotografar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../appsisnfp/trunk/SisNfp/docs/tela_principal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../appsisnfp/trunk/SisNfp/docs/tela_splash.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../appsisnfp/trunk/SisNfp/gen/android/support/v7/appcompat/R.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../appsisnfp/trunk/SisNfp/gen/br/org/laramara/sisnfp/BuildConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../appsisnfp/trunk/SisNfp/gen/br/org/laramara/sisnfp/R.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../appsisnfp/trunk/SisNfp/ic_launcher-web.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../appsisnfp/trunk/SisNfp/proguard-project.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../appsisnfp/trunk/SisNfp/project.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../appsisnfp/trunk/SisNfp/res/drawable-hdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../appsisnfp/trunk/SisNfp/res/drawable-ldpi/exemplo_nf.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../appsisnfp/trunk/SisNfp/res/drawable-ldpi/logo_laramara.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../appsisnfp/trunk/SisNfp/res/drawable-ldpi/logo_nota_fiscal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../appsisnfp/trunk/SisNfp/res/drawable-mdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../appsisnfp/trunk/SisNfp/res/drawable-web/web_hi_res_512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../appsisnfp/trunk/SisNfp/res/drawable-xhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../appsisnfp/trunk/SisNfp/res/drawable-xxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../appsisnfp/trunk/SisNfp/res/drawable-xxxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../appsisnfp/trunk/SisNfp/res/layout/activity_tela_nota_fiscal.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../appsisnfp/trunk/SisNfp/res/layout/activity_tela_principal.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../appsisnfp/trunk/SisNfp/res/layout/activity_tela_splash.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../appsisnfp/trunk/SisNfp/res/menu/main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../appsisnfp/trunk/SisNfp/res/values-v11/styles.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../appsisnfp/trunk/SisNfp/res/values-v14/styles.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../appsisnfp/trunk/SisNfp/res/values-w820dp/dimens.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../appsisnfp/trunk/SisNfp/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../appsisnfp/trunk/SisNfp/res/values/dimens.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../appsisnfp/trunk/SisNfp/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../appsisnfp/trunk/SisNfp/res/values/styles.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../appsisnfp/trunk/SisNfp/src/br/org/laramara/sisnfp/controladores/ControladorTelaBase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../appsisnfp/trunk/SisNfp/src/br/org/laramara/sisnfp/controladores/ControladorTelaNotaFiscal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../appsisnfp/trunk/SisNfp/src/br/org/laramara/sisnfp/controladores/ControladorTelaPrincipal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../appsisnfp/trunk/SisNfp/src/br/org/laramara/sisnfp/controladores/ControladorTelaSplash.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../appsisnfp/trunk/SisNfp/src/br/org/laramara/sisnfp/fabricas/FabricaNotaFiscal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../appsisnfp/trunk/SisNfp/src/br/org/laramara/sisnfp/fachadas/FachadaNotaFiscal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../appsisnfp/trunk/SisNfp/src/br/org/laramara/sisnfp/servicos/IServicoNotaFiscal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../appsisnfp/trunk/SisNfp/src/br/org/laramara/sisnfp/servicos/Servico.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../appsisnfp/trunk/SisNfp/src/br/org/laramara/sisnfp/servicos/ServicoNotaFiscal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../appsisnfp/trunk/SisNfp/src/br/org/laramara/sisnfp/tarefas/Tarefa.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../appsisnfp/trunk/SisNfp/src/br/org/laramara/sisnfp/tarefas/TarefaUpload.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../appsisnfp/trunk/SisNfp/src/br/org/laramara/sisnfp/utilitarios/ArquivoUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../appsisnfp/trunk/SisNfp/src/br/org/laramara/sisnfp/utilitarios/Configuracao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../appsisnfp/trunk/SisNfp/src/br/org/laramara/sisnfp/utilitarios/DataHoraUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../appsisnfp/trunk/SisNfp/src/br/org/laramara/sisnfp/utilitarios/ImageUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../appsisnfp/trunk/SisNfp/src/br/org/laramara/sisnfp/utilitarios/Mensagem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apptccmobile/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apptccmobile/.idea/caches/build_file_checksums.ser" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apptccmobile/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apptccmobile/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apptccmobile/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apptccmobile/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apptccmobile/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apptccmobile/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apptccmobile/app/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apptccmobile/app/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apptccmobile/app/src/androidTest/java/br/com/bg/apptccmobile/ExampleInstrumentedTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apptccmobile/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apptccmobile/app/src/main/java/br/com/bg/apptccmobile/controladores/Menu_Drawer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apptccmobile/app/src/main/java/br/com/bg/apptccmobile/controladores/Tela_Alterar_Bebida.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apptccmobile/app/src/main/java/br/com/bg/apptccmobile/controladores/Tela_Alterar_Comida.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apptccmobile/app/src/main/java/br/com/bg/apptccmobile/controladores/Tela_Alterar_Convidado.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apptccmobile/app/src/main/java/br/com/bg/apptccmobile/controladores/Tela_Alterar_Deletar_Convidado.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apptccmobile/app/src/main/java/br/com/bg/apptccmobile/controladores/Tela_Base.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apptccmobile/app/src/main/java/br/com/bg/apptccmobile/controladores/Tela_Cadastrar_Bebida.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apptccmobile/app/src/main/java/br/com/bg/apptccmobile/controladores/Tela_Cadastrar_Comida.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apptccmobile/app/src/main/java/br/com/bg/apptccmobile/controladores/Tela_Cadastrar_Convidado.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apptccmobile/app/src/main/java/br/com/bg/apptccmobile/controladores/Tela_Cadastrar_Usuario.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apptccmobile/app/src/main/java/br/com/bg/apptccmobile/controladores/Tela_Deletar_Bebida.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apptccmobile/app/src/main/java/br/com/bg/apptccmobile/controladores/Tela_Deletar_Comida.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apptccmobile/app/src/main/java/br/com/bg/apptccmobile/controladores/Tela_Deletar_Convidado.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apptccmobile/app/src/main/java/br/com/bg/apptccmobile/controladores/Tela_Principal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apptccmobile/app/src/main/java/br/com/bg/apptccmobile/controladores/Tela_Sobre_wztd.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apptccmobile/app/src/main/java/br/com/bg/apptccmobile/controladores/Tela_Splash.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apptccmobile/app/src/main/java/br/com/bg/apptccmobile/controladores/Tela_Teste.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apptccmobile/app/src/main/java/br/com/bg/apptccmobile/dominio/Bebida.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apptccmobile/app/src/main/java/br/com/bg/apptccmobile/dominio/Comida.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apptccmobile/app/src/main/java/br/com/bg/apptccmobile/dominio/Convidado.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apptccmobile/app/src/main/java/br/com/bg/apptccmobile/dominio/Convidado2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apptccmobile/app/src/main/java/br/com/bg/apptccmobile/dominio/Evento.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apptccmobile/app/src/main/java/br/com/bg/apptccmobile/dominio/Usuario.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apptccmobile/app/src/main/java/br/com/bg/apptccmobile/fabrica/FabricaBebida.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apptccmobile/app/src/main/java/br/com/bg/apptccmobile/fabrica/FabricaComida.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apptccmobile/app/src/main/java/br/com/bg/apptccmobile/fabrica/FabricaConexao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apptccmobile/app/src/main/java/br/com/bg/apptccmobile/fabrica/FabricaConvidado.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apptccmobile/app/src/main/java/br/com/bg/apptccmobile/fabrica/FabricaConvidado2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apptccmobile/app/src/main/java/br/com/bg/apptccmobile/fabrica/FabricaEvento.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apptccmobile/app/src/main/java/br/com/bg/apptccmobile/fabrica/FabricaUsuario.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apptccmobile/app/src/main/java/br/com/bg/apptccmobile/mysql-connector-java-5.1.45-bin.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apptccmobile/app/src/main/java/br/com/bg/apptccmobile/repositorios/RepositorioBase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apptccmobile/app/src/main/java/br/com/bg/apptccmobile/repositorios/RepositorioBaseMysql.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apptccmobile/app/src/main/java/br/com/bg/apptccmobile/repositorios/RepositorioBebida.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apptccmobile/app/src/main/java/br/com/bg/apptccmobile/repositorios/RepositorioComida.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apptccmobile/app/src/main/java/br/com/bg/apptccmobile/repositorios/RepositorioConvidado.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apptccmobile/app/src/main/java/br/com/bg/apptccmobile/repositorios/RepositorioConvidado2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apptccmobile/app/src/main/java/br/com/bg/apptccmobile/repositorios/RepositorioEvento.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apptccmobile/app/src/main/java/br/com/bg/apptccmobile/repositorios/RepositorioUsuario.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apptccmobile/app/src/main/java/br/com/bg/apptccmobile/utilitario/ApagadorDb.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apptccmobile/app/src/main/java/br/com/bg/apptccmobile/utilitario/Mensagem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apptccmobile/app/src/main/res/drawable-hdpi/background_material_red.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apptccmobile/app/src/main/res/drawable-hdpi/fundo1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apptccmobile/app/src/main/res/drawable-hdpi/hamb1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apptccmobile/app/src/main/res/drawable-hdpi/ic_search.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apptccmobile/app/src/main/res/drawable-hdpi/profile.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apptccmobile/app/src/main/res/drawable-hdpi/tibimodal.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apptccmobile/app/src/main/res/drawable-ldpi/background_material_red.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apptccmobile/app/src/main/res/drawable-ldpi/fundo1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apptccmobile/app/src/main/res/drawable-ldpi/hamb1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apptccmobile/app/src/main/res/drawable-ldpi/profile.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apptccmobile/app/src/main/res/drawable-mdpi/background_material_red.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apptccmobile/app/src/main/res/drawable-mdpi/fundo1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apptccmobile/app/src/main/res/drawable-mdpi/hamb1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apptccmobile/app/src/main/res/drawable-mdpi/ic_search.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apptccmobile/app/src/main/res/drawable-mdpi/profile.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apptccmobile/app/src/main/res/drawable-tvdpi/background_material_red.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apptccmobile/app/src/main/res/drawable-tvdpi/fundo1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apptccmobile/app/src/main/res/drawable-tvdpi/hamb1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apptccmobile/app/src/main/res/drawable-tvdpi/profile.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apptccmobile/app/src/main/res/drawable-xhdpi/background_material_red.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apptccmobile/app/src/main/res/drawable-xhdpi/fundo1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apptccmobile/app/src/main/res/drawable-xhdpi/hamb1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apptccmobile/app/src/main/res/drawable-xhdpi/ic_search.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apptccmobile/app/src/main/res/drawable-xhdpi/profile.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apptccmobile/app/src/main/res/drawable-xxhdpi/fundo1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apptccmobile/app/src/main/res/drawable-xxhdpi/hamb1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apptccmobile/app/src/main/res/drawable-xxhdpi/ic_search.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apptccmobile/app/src/main/res/drawable-xxhdpi/profile.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apptccmobile/app/src/main/res/drawable-xxxhdpi/fundo1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apptccmobile/app/src/main/res/drawable-xxxhdpi/hamb1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apptccmobile/app/src/main/res/drawable-xxxhdpi/ic_search.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apptccmobile/app/src/main/res/drawable-xxxhdpi/profile.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apptccmobile/app/src/main/res/drawable/ic_menu_camera.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apptccmobile/app/src/main/res/drawable/ic_menu_gallery.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apptccmobile/app/src/main/res/drawable/ic_menu_manage.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apptccmobile/app/src/main/res/drawable/ic_menu_send.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apptccmobile/app/src/main/res/drawable/ic_menu_share.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apptccmobile/app/src/main/res/drawable/ic_menu_slideshow.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apptccmobile/app/src/main/res/drawable/side_nav_bar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apptccmobile/app/src/main/res/layout/activity_menu__drawer.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apptccmobile/app/src/main/res/layout/activity_tela__alterar__bebida.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apptccmobile/app/src/main/res/layout/activity_tela__alterar__comida.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apptccmobile/app/src/main/res/layout/activity_tela__alterar__convidado.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apptccmobile/app/src/main/res/layout/activity_tela__alterar__deletar__convidado.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apptccmobile/app/src/main/res/layout/activity_tela__cadastrar__bebida.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apptccmobile/app/src/main/res/layout/activity_tela__cadastrar__comida.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apptccmobile/app/src/main/res/layout/activity_tela__cadastrar__convidado.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apptccmobile/app/src/main/res/layout/activity_tela__cadastrar__usuario.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apptccmobile/app/src/main/res/layout/activity_tela__deletar__bebida.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apptccmobile/app/src/main/res/layout/activity_tela__deletar__comida.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apptccmobile/app/src/main/res/layout/activity_tela__deletar__convidado.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apptccmobile/app/src/main/res/layout/activity_tela__principal.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apptccmobile/app/src/main/res/layout/activity_tela__sobre_wztd.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apptccmobile/app/src/main/res/layout/activity_tela__splash.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apptccmobile/app/src/main/res/layout/activity_tela__teste.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apptccmobile/app/src/main/res/layout/app_bar_menu__drawer.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apptccmobile/app/src/main/res/layout/content_menu__drawer.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apptccmobile/app/src/main/res/layout/nav_header_menu__drawer.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apptccmobile/app/src/main/res/menu/activity_menu__drawer_drawer.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apptccmobile/app/src/main/res/menu/menu__drawer.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apptccmobile/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apptccmobile/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apptccmobile/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apptccmobile/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apptccmobile/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apptccmobile/app/src/main/res/values-v21/styles.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apptccmobile/app/src/main/res/values-w820dp/dimens.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apptccmobile/app/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apptccmobile/app/src/main/res/values/dimens.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apptccmobile/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apptccmobile/app/src/main/res/values/styles.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apptccmobile/app/src/test/java/br/com/bg/apptccmobile/ExampleUnitTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apptccmobile/bd/2018-11-30_223810.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apptccmobile/bd/bebida.mwb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apptccmobile/bd/bebida.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apptccmobile/bd/teste.mwb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apptccmobile/bd/teste.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apptccmobile/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apptccmobile/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apptccmobile/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apptccmobile/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apptccmobile/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apptccmobile/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apptccmobile/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumoApiCep/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumoApiCep/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumoApiCep/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumoApiCep/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumoApiCep/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumoApiCep/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumoApiCep/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumoApiCep/app/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumoApiCep/app/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumoApiCep/app/src/androidTest/java/com/example/consumoapicep/ExampleInstrumentedTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumoApiCep/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumoApiCep/app/src/main/java/com/example/consumoapicep/Async.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumoApiCep/app/src/main/java/com/example/consumoapicep/MainActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumoApiCep/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumoApiCep/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumoApiCep/app/src/main/res/layout/activity_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumoApiCep/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumoApiCep/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumoApiCep/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumoApiCep/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumoApiCep/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumoApiCep/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumoApiCep/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumoApiCep/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumoApiCep/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumoApiCep/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumoApiCep/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumoApiCep/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumoApiCep/app/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumoApiCep/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumoApiCep/app/src/main/res/values/styles.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumoApiCep/app/src/test/java/com/example/consumoapicep/ExampleUnitTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumoApiCep/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumoApiCep/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumoApiCep/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumoApiCep/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumoApiCep/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumoApiCep/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumoApiCep/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/androidTest/java/br/com/bg/apptccmobile/ExampleInstrumentedTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/br/com/bg/apptccmobile/controladores/Menu_Drawer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/br/com/bg/apptccmobile/controladores/Tela_Alterar_Bebida.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/br/com/bg/apptccmobile/controladores/Tela_Alterar_Comida.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/br/com/bg/apptccmobile/controladores/Tela_Alterar_Convidado.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/br/com/bg/apptccmobile/controladores/Tela_Alterar_Deletar_Convidado.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/br/com/bg/apptccmobile/controladores/Tela_Base.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/br/com/bg/apptccmobile/controladores/Tela_Cadastrar_Bebida.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/br/com/bg/apptccmobile/controladores/Tela_Cadastrar_Comida.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/br/com/bg/apptccmobile/controladores/Tela_Cadastrar_Convidado.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/br/com/bg/apptccmobile/controladores/Tela_Cadastrar_Usuario.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/br/com/bg/apptccmobile/controladores/Tela_Deletar_Bebida.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/br/com/bg/apptccmobile/controladores/Tela_Deletar_Comida.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/br/com/bg/apptccmobile/controladores/Tela_Deletar_Convidado.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/br/com/bg/apptccmobile/controladores/Tela_Principal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/br/com/bg/apptccmobile/controladores/Tela_Sobre_wztd.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/br/com/bg/apptccmobile/controladores/Tela_Splash.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/br/com/bg/apptccmobile/controladores/Tela_Teste.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/br/com/bg/apptccmobile/dominio/Bebida.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/br/com/bg/apptccmobile/dominio/Comida.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/br/com/bg/apptccmobile/dominio/Convidado.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/br/com/bg/apptccmobile/dominio/Convidado2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/br/com/bg/apptccmobile/dominio/Evento.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/br/com/bg/apptccmobile/dominio/Usuario.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/br/com/bg/apptccmobile/fabrica/FabricaBebida.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/br/com/bg/apptccmobile/fabrica/FabricaComida.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/br/com/bg/apptccmobile/fabrica/FabricaConvidado.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/br/com/bg/apptccmobile/fabrica/FabricaConvidado2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/br/com/bg/apptccmobile/fabrica/FabricaEvento.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/br/com/bg/apptccmobile/fabrica/FabricaUsuario.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/br/com/bg/apptccmobile/repositorios/RepositorioBase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/br/com/bg/apptccmobile/repositorios/RepositorioBebida.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/br/com/bg/apptccmobile/repositorios/RepositorioComida.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/br/com/bg/apptccmobile/repositorios/RepositorioConvidado.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/br/com/bg/apptccmobile/repositorios/RepositorioConvidado2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/br/com/bg/apptccmobile/repositorios/RepositorioEvento.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/br/com/bg/apptccmobile/repositorios/RepositorioUsuario.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/br/com/bg/apptccmobile/utilitario/ApagadorDb.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/br/com/bg/apptccmobile/utilitario/Mensagem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/background_material_red.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/fundo1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/hamb1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_search.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/profile.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/tibimodal.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-ldpi/background_material_red.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-ldpi/fundo1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-ldpi/hamb1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-ldpi/profile.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/background_material_red.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/fundo1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/hamb1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/ic_search.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/profile.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-tvdpi/background_material_red.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-tvdpi/fundo1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-tvdpi/hamb1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-tvdpi/profile.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/background_material_red.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/fundo1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/hamb1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_search.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/profile.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/fundo1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/hamb1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ic_search.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/profile.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/fundo1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/hamb1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/ic_search.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/profile.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_menu_camera.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_menu_gallery.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_menu_manage.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_menu_send.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_menu_share.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_menu_slideshow.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/side_nav_bar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_menu__drawer.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_tela__alterar__bebida.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_tela__alterar__comida.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_tela__alterar__convidado.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_tela__alterar__deletar__convidado.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_tela__cadastrar__bebida.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_tela__cadastrar__comida.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_tela__cadastrar__convidado.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_tela__cadastrar__usuario.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_tela__deletar__bebida.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_tela__deletar__comida.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_tela__deletar__convidado.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_tela__principal.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_tela__sobre_wztd.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_tela__splash.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_tela__teste.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/app_bar_menu__drawer.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/content_menu__drawer.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/nav_header_menu__drawer.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/menu/activity_menu__drawer_drawer.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/menu/menu__drawer.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values-v21/styles.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values-w820dp/dimens.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/dimens.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/test/java/br/com/bg/apptccmobile/ExampleUnitTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="Pixel_2_API_28_-_Pie" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view />
+      </state>
+    </system>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1hzUEE6HkvWxQzH7XCny9m6NFzM" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="crudAndroidSqlite-app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="crudAndroidSqlite-app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9be9cdf3-8152-4e54-b38d-312ca995d8f1" name="Default Changelist" comment="" />
+      <created>1601013300739</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1601013300739</updated>
+    </task>
+    <servers />
+  </component>
+</project>

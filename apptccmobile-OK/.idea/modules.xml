@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/apptccmobile.iml" filepath="$PROJECT_DIR$/apptccmobile.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/apptccmobile-app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/apptccmobile-app.iml" group="apptccmobile/app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/exemplos-android-apptccmobile.iml" filepath="$PROJECT_DIR$/.idea/modules/exemplos-android-apptccmobile.iml" group="apptccmobile" />
+    </modules>
+  </component>
+</project>
