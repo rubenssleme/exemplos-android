@@ -20,6 +20,7 @@ public class MainActivity extends AppCompatActivity {
         btnEnviar  = (Button) findViewById(R.id.btnEnviar);
         txtNome = (EditText) findViewById(R.id.txtNome);
         txtSenha = (EditText) findViewById(R.id.txtSenha) ;
+        txvNomeSenha = findViewById(R.id.txvNomeSenha);
         btnEnviar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

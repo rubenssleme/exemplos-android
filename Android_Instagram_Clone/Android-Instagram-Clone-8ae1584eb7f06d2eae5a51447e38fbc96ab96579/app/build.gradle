@@ -1,12 +1,12 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 25
-    buildToolsVersion "25.0.0"
+    compileSdkVersion 28
+    buildToolsVersion "25.0.3"
     defaultConfig {
         applicationId "tabian.com.instagramclone"
-        minSdkVersion 18
-        targetSdkVersion 25
+        minSdkVersion 25
+        targetSdkVersion 28
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
@@ -20,24 +20,28 @@ android {
 }
 
 dependencies {
-    compile fileTree(dir: 'libs', include: ['*.jar'])
-    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+    //noinspection GradleCompatible
+    implementation 'com.android.support:coordinatorlayout:25.3.1'
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    androidTestImplementation('com.android.support.test.espresso:espresso-core:2.2.2', {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
-    compile 'com.android.support:appcompat-v7:25.3.1'
-    compile 'com.android.support.constraint:constraint-layout:1.0.2'
-    testCompile 'junit:junit:4.12'
+    //noinspection GradleCompatible
+    implementation 'com.android.support:appcompat-v7:25.3.1'
+    implementation 'com.android.support.constraint:constraint-layout:1.0.2'
+    testImplementation 'junit:junit:4.12'
 
     //Design library for Coordinator Layout and Toolbars
-    compile 'com.android.support:design:25.3.1'
+    //noinspection GradleCompatible
+    implementation 'com.android.support:design:25.3.1'
 
     //BottomNavigationViewEx library
-    compile 'com.github.ittianyu:BottomNavigationViewEx:1.1.9'
+    implementation 'com.github.ittianyu:BottomNavigationViewEx:1.1.9'
 
     //Circle ImageView
-    compile 'de.hdodenhof:circleimageview:2.1.0'
+    implementation 'de.hdodenhof:circleimageview:2.1.0'
 
     //Universal image loader
-    compile 'com.nostra13.universalimageloader:universal-image-loader:1.9.5'
+    implementation 'com.nostra13.universalimageloader:universal-image-loader:1.9.5'
 
 }
