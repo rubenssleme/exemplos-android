@@ -10,7 +10,7 @@ import androidx.annotation.Nullable;
 
 import java.util.ArrayList;
 
-public class DaoContato extends SQLiteOpenHelper {
+public class DaoContato extends SQLiteOpenHelper  {
     private final  String TABELA_CONTATO = "TB_CONTATO";
     private final String TABELA_LOGIN = "TB_LOGIN";
 

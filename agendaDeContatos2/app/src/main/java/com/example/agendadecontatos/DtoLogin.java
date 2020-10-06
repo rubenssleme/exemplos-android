@@ -1,11 +1,13 @@
 package com.example.agendadecontatos;
 
 public class DtoLogin {
+    //Atributos
     private int id;
     private String nome;
     private String usuario;
     private String senha;
 
+    //Contrutores
     public DtoLogin() {
 
     }
@@ -16,6 +18,7 @@ public class DtoLogin {
         this.senha = senha;
     }
 
+    //Getters e Setters
     public int getId() {
         return id;
     }
@@ -52,6 +55,7 @@ public class DtoLogin {
        return false;
     }
 
+    //ToString
     @Override
     public String toString() {
         return "DtoLogin{" +

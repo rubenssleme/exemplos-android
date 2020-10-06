@@ -60,11 +60,12 @@ public class ActivityTelaMenu extends AppCompatActivity {
             public void onDestinationChanged(@NonNull NavController controller, @NonNull NavDestination destination, @Nullable Bundle arguments) {
                 int menuId = destination.getId();
                 switch (menuId) {
+                    case R.id.nav_home:
                     case R.id.nav_gallery:
-                        fab.setVisibility(View.VISIBLE);
+                        fab.setVisibility(View.INVISIBLE);
                         break;
                     default:
-                        fab.setVisibility(View.INVISIBLE);
+                        fab.setVisibility(View.VISIBLE);
                         break;
                 }
             }
