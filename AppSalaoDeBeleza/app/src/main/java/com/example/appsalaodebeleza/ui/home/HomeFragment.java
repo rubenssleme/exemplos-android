@@ -1,4 +1,5 @@
 package com.example.appsalaodebeleza.ui.home;
+
 import android.os.Bundle;
 import android.util.Log;
 import android.view.LayoutInflater;
@@ -32,11 +33,11 @@ public class HomeFragment extends Fragment {
         final View root = inflater.inflate(R.layout.fragment_home, container, false);
         final TextView textView = root.findViewById(R.id.text_home);
         buttonSalvar = root.findViewById(R.id.buttonSalvar);
-            editTextNomeCliente = root.findViewById(R.id.editTextNomeCliente);
-            editTextTelefoneCliente = root.findViewById(R.id.editTextTelefoneCliente);
-            editTextEmailCliente = root.findViewById(R.id.editTextEmailCliente);
-            editTextEnderecoCliente = root.findViewById(R.id.editTextEnderecoCliente);
-
+        editTextNomeCliente = root.findViewById(R.id.editTextNomeCliente);
+        editTextTelefoneCliente = root.findViewById(R.id.editTextTelefoneCliente);
+        editTextEmailCliente = root.findViewById(R.id.editTextEmailCliente);
+        editTextEnderecoCliente = root.findViewById(R.id.editTextEnderecoCliente);
+        //Evento botão salvar
         buttonSalvar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -44,26 +45,26 @@ public class HomeFragment extends Fragment {
                         editTextNomeCliente.getText().toString(),
                         editTextTelefoneCliente.getText().toString(),
                         editTextEmailCliente.getText().toString(),
-                        editTextEnderecoCliente.getText().toString() );
-
+                        editTextEnderecoCliente.getText().toString());
                 ClienteDAO clienteDAO = new ClienteDAO(getActivity().getApplicationContext());
-
                 try {
-                    if(clienteDAO.inserir(clienteDTO)>0){
+                    if (clienteDAO.inserir(clienteDTO) > 0) {
                         Toast.makeText(getActivity().getApplicationContext(), "Inserido com sucesso!", Toast.LENGTH_SHORT).show();
                     }
-                }catch (Exception ex){
-                    Log.d("Erro-ao-inserir:",ex.toString());
-                    Toast.makeText(getActivity().getApplicationContext(), "Erro ao Inserido: ", Toast.LENGTH_SHORT).show();
+                } catch (Exception ex) {
+                    Log.d("Erro-ao-inserir: ", ex.toString());
+                    Toast.makeText(getActivity().getApplicationContext(), "Erro ao Inserir: ", Toast.LENGTH_SHORT).show();
                 }
+
             }
         });
-                homeViewModel.getText().observe(getViewLifecycleOwner(), new Observer<String>() {
+        homeViewModel.getText().observe(getViewLifecycleOwner(), new Observer<String>() {
             @Override
-            public void onChanged(@Nullable String s) {
+            public void onChanged(String s) {
                 textView.setText(s);
             }
         });
         return root;
     }
 }
+

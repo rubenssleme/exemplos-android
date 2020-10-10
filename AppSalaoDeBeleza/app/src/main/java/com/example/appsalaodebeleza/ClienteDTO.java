@@ -12,6 +12,7 @@ public class ClienteDTO {
     public ClienteDTO() {
 
     }
+
     public ClienteDTO( String nome, String telefone, String email, String endereco) {
        this.nome = nome;
         this.telefone = telefone;
@@ -62,12 +63,21 @@ public class ClienteDTO {
     //ToString
     @Override
     public String toString() {
-        return "ClienteDTO{" +
-                "id=" + id +
-                ", nome='" + nome + '\'' +
-                ", telefone='" + telefone + '\'' +
-                ", email='" + email + '\'' +
-                ", endereco='" + endereco + '\'' +
-                '}';
+        return
+                "Nome: " + nome     + "        " +
+                 "Cel: " + telefone + "\n"       +
+               "Email: " + email  ;
+
     }
+
+//    @Override
+//    public String toString() {
+//        return "ClienteDTO{" +
+//                "id=" + id +
+//                ", nome='" + nome + '\'' +
+//                ", telefone='" + telefone + '\'' +
+//                ", email='" + email + '\'' +
+//                ", endereco='" + endereco + '\'' +
+//                '}';
+//    }
 }

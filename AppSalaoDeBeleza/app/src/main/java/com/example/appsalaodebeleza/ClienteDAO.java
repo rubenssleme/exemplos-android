@@ -13,7 +13,6 @@ public class ClienteDAO extends SQLiteOpenHelper {
     private final String TABELA_LOGIN = "Tab_Login";
     private final String TABELA_CLIENTE = "Tab_Cliente";
     private final String TABELA_SERVICO = "Tab_Servico";
-
     public ClienteDAO(@Nullable Context context) {
         super(context, "db_salao_beleza", null, 1);
     }
@@ -25,7 +24,6 @@ public class ClienteDAO extends SQLiteOpenHelper {
                 "ID_CLIENTE INTEGER," +
                 "USUARIO VARCHAR(25)," +
                 "SENHA VARCHAR(8))";
-
         db.execSQL(comando);
         // Criação da entidade tab_cliente
         String comandoCliente = "CREATE TABLE " + TABELA_CLIENTE + "(" +
@@ -43,8 +41,6 @@ public class ClienteDAO extends SQLiteOpenHelper {
                 "DESCRICAO VARCHAR(50)," +
                 "TEMPO VARCHAR(15))";
         db.execSQL(comandoServico);
-
-
     }
 
 
@@ -71,23 +67,23 @@ public class ClienteDAO extends SQLiteOpenHelper {
         long nLinhas = getWritableDatabase().insert(TABELA_CLIENTE, null, values);
         return nLinhas;
     }
+
     public ArrayList<ClienteDTO> consultarTodos(){
         String comando  = "SELECT * FROM " + TABELA_CLIENTE;
         Cursor cursor = getReadableDatabase().rawQuery(comando,null);
-        ArrayList<ClienteDTO> listaContato = new ArrayList<>();
-
+        ArrayList<ClienteDTO> listaCliente = new ArrayList<>();
         while (cursor.moveToNext()){
-            ClienteDTO dtoContato = new ClienteDTO();
-            dtoContato.setId(cursor.getInt(0));
-            dtoContato.setNome(cursor.getString(1));
-            dtoContato.setEmail(cursor.getString(2));
-            dtoContato.setTelefone(cursor.getString(3));
-            dtoContato.setEndereco(cursor.getString(4));
-            listaContato.add(dtoContato);
+            ClienteDTO clienteDTO = new ClienteDTO();
+            clienteDTO.setId(cursor.getInt(0));
+            clienteDTO.setNome(cursor.getString(1));
+            clienteDTO.setEmail(cursor.getString(2));
+            clienteDTO.setTelefone(cursor.getString(3));
+            clienteDTO.setEndereco(cursor.getString(4));
+            listaCliente.add(clienteDTO);
         }
-
-        return listaContato;
+        return listaCliente;
     }
+
 
 
 
