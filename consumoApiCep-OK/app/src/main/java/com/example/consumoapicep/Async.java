@@ -25,7 +25,8 @@ public class Async extends AsyncTask {
         InputStream inputStream = null;
         String endereco = "";
         try {
-            URL url = new URL("http://viacep.com.br/ws/" +cep+"/json/");
+           // URL url = new URL("http://viacep.com.br/ws/" +cep+"/json/");
+            URL url = new URL("https://5f9b67a1856f4c00168be719.mockapi.io/users/id");
             HttpURLConnection connection  = (HttpURLConnection) url.openConnection();
           inputStream  = connection.getInputStream();
             InputStreamReader inputStreamReader = new InputStreamReader(inputStream);
