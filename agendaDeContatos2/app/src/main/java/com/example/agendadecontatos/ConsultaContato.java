@@ -24,21 +24,20 @@ public class ConsultaContato extends AppCompatActivity {
         listViewContato = findViewById(R.id.listViewContato);
         DaoContato daoContato = new DaoContato(getApplicationContext());
 
-     arrayListContato = daoContato.consultarTodos();
-        ArrayAdapter adapter = new ArrayAdapter(getApplicationContext(),android.R.layout.simple_list_item_1,arrayListContato);
+        arrayListContato = daoContato.consultarTodos();
+        ArrayAdapter adapter = new ArrayAdapter(getApplicationContext(), android.R.layout.simple_list_item_1, arrayListContato);
 
         listViewContato.setAdapter(adapter);
-
 
 
         cadastrarNovoContato();
     }
 
-    private void cadastrarNovoContato(){
+    private void cadastrarNovoContato() {
         buttonNovoContato.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent novoContato = new Intent(getApplicationContext(),CadastrarContato.class);
+                Intent novoContato = new Intent(getApplicationContext(), CadastrarContato.class);
                 startActivity(novoContato);
             }
         });

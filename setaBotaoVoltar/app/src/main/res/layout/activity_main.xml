@@ -22,5 +22,14 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Proxima Activity" />
+
+        <TextView
+            android:id="@+id/textViewEsqueciSenha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Esqueci senha"
+            android:textAlignment="textEnd"
+            android:textColor="@color/colorPrimaryDark"
+            android:textStyle="italic" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

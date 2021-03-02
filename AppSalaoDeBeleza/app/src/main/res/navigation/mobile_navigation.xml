@@ -27,4 +27,9 @@
         android:name="com.example.appsalaodebeleza.ui.alteracao.AlteracaoFragment"
         android:label="@string/menu_alteracao"
         tools:layout="@layout/fragment_alteracao" />
+    <fragment
+        android:id="@+id/nav_socios"
+        android:name="com.example.appsalaodebeleza.ui.socios.SociosFragment"
+        android:label="@string/menu_socios"
+        tools:layout="@layout/fragment_socios" />
 </navigation>

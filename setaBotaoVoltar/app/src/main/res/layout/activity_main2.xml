@@ -11,7 +11,7 @@
         android:id="@+id/textView2"
         android:layout_width="411dp"
         android:layout_height="123dp"
-        android:text="Click na seta acima\n para voltar!"
+        android:text="Senha Nova"
         android:textAlignment="center"
         android:textSize="30sp"
         android:textStyle="bold"

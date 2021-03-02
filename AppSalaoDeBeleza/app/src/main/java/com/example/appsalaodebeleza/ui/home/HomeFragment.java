@@ -11,7 +11,6 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.annotation.NonNull;
-import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProviders;
@@ -26,10 +25,10 @@ public class HomeFragment extends Fragment {
     EditText editTextEmailCliente;
     EditText editTextEnderecoCliente;
     Button buttonSalvar;
-    private HomeViewModel homeViewModel;
+    private com.example.appsalaodebeleza.ui.home.HomeViewModel homeViewModel;
 
     public View onCreateView(@NonNull final LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        homeViewModel = ViewModelProviders.of(this).get(HomeViewModel.class);
+        homeViewModel = ViewModelProviders.of(this).get(com.example.appsalaodebeleza.ui.home.HomeViewModel.class);
         final View root = inflater.inflate(R.layout.fragment_home, container, false);
         final TextView textView = root.findViewById(R.id.text_home);
         buttonSalvar = root.findViewById(R.id.buttonSalvar);

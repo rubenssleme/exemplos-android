@@ -8,8 +8,9 @@
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
 
-    <string name="menu_home">Cadastro Cliente</string>
+    <string name="menu_home">Home</string>
     <string name="menu_gallery">Consulta Cliente</string>
     <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_socios">Socios</string>
     <string name="menu_alteracao">Alteração</string>
 </resources>

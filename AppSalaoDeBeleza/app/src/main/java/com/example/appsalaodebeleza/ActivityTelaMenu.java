@@ -55,6 +55,7 @@ public class ActivityTelaMenu extends AppCompatActivity {
                 switch (menuId) {
                     case R.id.nav_home:
                     case R.id.nav_gallery:
+                    case R.id.nav_slideshow:
                         fab.setVisibility(View.INVISIBLE);
                         break;
                     default:
