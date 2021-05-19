@@ -1,0 +1,39 @@
+package com.example.exemplobdnovo.controlador;
+
+import android.content.Context;
+import android.content.Intent;
+import android.os.Bundle;
+import android.widget.EditText;
+
+import androidx.appcompat.app.AppCompatActivity;
+
+import com.example.exemplobdnovo.repositorio.RepositorioUsuario;
+
+
+public class BaseActivity extends AppCompatActivity {
+
+    protected RepositorioUsuario repositorioUsuario;
+
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+
+        repositorioUsuario = new RepositorioUsuario(this);
+
+    }
+
+    protected void abrirTela(Context tela, Class<?> novaTela) {
+        Intent intent = new Intent(tela, novaTela);
+        this.startActivity(intent);
+    }
+    public void finalizarAplicacao(){
+        this.finish();
+    }
+
+        protected String obterTexto(EditText editText) {
+            String texto = editText.getText().toString();
+
+            return texto != null && !texto.isEmpty() ? texto : "";
+        }
+}

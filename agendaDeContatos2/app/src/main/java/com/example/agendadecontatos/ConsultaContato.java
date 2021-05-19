@@ -14,7 +14,7 @@ import java.util.ArrayList;
 public class ConsultaContato extends AppCompatActivity {
     Button buttonNovoContato;
     ListView listViewContato;
-    ArrayList<DtoContato> arrayListContato;
+    ArrayList<ContatoDTO> arrayListContato;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,7 +22,7 @@ public class ConsultaContato extends AppCompatActivity {
         setContentView(R.layout.activity_consulta_contato);
         buttonNovoContato = findViewById(R.id.buttonNovoContato);
         listViewContato = findViewById(R.id.listViewContato);
-        DaoContato daoContato = new DaoContato(getApplicationContext());
+        ContatoDAO daoContato = new ContatoDAO(getApplicationContext());
 
         arrayListContato = daoContato.consultarTodos();
         ArrayAdapter adapter = new ArrayAdapter(getApplicationContext(), android.R.layout.simple_list_item_1, arrayListContato);

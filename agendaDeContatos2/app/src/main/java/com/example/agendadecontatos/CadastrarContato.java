@@ -26,15 +26,16 @@ public class CadastrarContato extends AppCompatActivity {
         editTextTelefone = findViewById(R.id.editTextTelefoneContato);
         editTextEndereco = findViewById(R.id.editTextEnderecoContato);
         buttonSalvar = findViewById(R.id.buttonSalvarContato);
+
         buttonSalvar.setOnClickListener(new View.OnClickListener() {
 
             @Override
             public void onClick(View v) {
-                DtoContato dtoContato = new DtoContato(editTextNome.getText().toString(),
+                ContatoDTO dtoContato = new ContatoDTO(editTextNome.getText().toString(),
                         editTextEmail.getText().toString(),
                         editTextTelefone.getText().toString(),
                         editTextEndereco.getText().toString());
-               DaoContato daoContato = new DaoContato(getApplicationContext());
+               ContatoDAO daoContato = new ContatoDAO(getApplicationContext());
                 try {
                     if (daoContato.inserir(dtoContato) > 0) {
                         Toast.makeText(CadastrarContato.this, "Inserido com sucesso!", Toast.LENGTH_SHORT).show();

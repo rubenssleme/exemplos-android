@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".LoginActivity">
+    tools:context=".controlador.LoginActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -45,18 +45,20 @@
                 android:orientation="horizontal">
 
                 <Button
-                    android:id="@+id/button1"
+                    android:id="@+id/buttonEnviar"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="Button" />
+                    android:background="@drawable/buttons_app"
+                    android:text="Enviar" />
 
                 <Button
-                    android:id="@+id/button2"
+                    android:id="@+id/buttonCancelar"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="Button" />
+                    android:background="@drawable/buttons_app"
+                    android:text="Cancelar" />
             </LinearLayout>
         </LinearLayout>
     </LinearLayout>

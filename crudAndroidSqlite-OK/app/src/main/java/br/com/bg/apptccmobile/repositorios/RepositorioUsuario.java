@@ -31,7 +31,7 @@ public class RepositorioUsuario extends RepositorioBase {
     }
     public boolean salvarUsuario (Usuario usuario) {
         boolean salvo = salvar(TABELA_USUARIO, FabricaUsuario.criarUsuarioCv(usuario));
-        Log.d("salvarUsuario()" , usuario.toString());
+        Log.d("salvarUsuario" , usuario.toString());
         return salvo;
     }
     public List<Usuario> obterTodos() {

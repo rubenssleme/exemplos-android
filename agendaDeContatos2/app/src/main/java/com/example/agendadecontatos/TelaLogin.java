@@ -15,8 +15,8 @@ Button buttonCancelar;
 EditText editTextUsuario;
 EditText editTextSenha;
 //Usuario e senha de teste.
-DtoLogin dtoLogin = new DtoLogin("Rubens","admin","admin");
-DtoLogin dao;
+LoginDTO dtoLogin = new LoginDTO("Rubens","admin","admin");
+LoginDTO dao;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/apptccmobile.iml" filepath="$PROJECT_DIR$/apptccmobile.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/apptccmobile-app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/apptccmobile-app.iml" group="apptccmobile/app" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/exemplos-android-apptccmobile.iml" filepath="$PROJECT_DIR$/.idea/modules/exemplos-android-apptccmobile.iml" group="apptccmobile" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/apptccmobile-OK.iml" filepath="$PROJECT_DIR$/.idea/modules/apptccmobile-OK.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/apptccmobile-OK.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/apptccmobile-OK.app.iml" />
     </modules>
   </component>
 </project>

@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/apptccmobile.iml" filepath="$PROJECT_DIR$/apptccmobile.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/crudAndroidSqlite.iml" filepath="$PROJECT_DIR$/.idea/modules/crudAndroidSqlite.iml" group="crudAndroidSqlite" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/crudAndroidSqlite-app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/crudAndroidSqlite-app.iml" group="crudAndroidSqlite/app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/crudAndroidSqlite-OK.iml" filepath="$PROJECT_DIR$/.idea/modules/crudAndroidSqlite-OK.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/crudAndroidSqlite-OK.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/crudAndroidSqlite-OK.app.iml" />
     </modules>
   </component>
 </project>

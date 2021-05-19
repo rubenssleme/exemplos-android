@@ -55,7 +55,7 @@ public class    Tela_Cadastrar_Convidado extends Tela_Base {
         });
     }
 
-    public void inicializar () {
+        public void inicializar () {
         txtcconviEmail = (EditText) findViewById(R.id.txtcconviEmail);
         txtcconviIdade = (EditText) findViewById(R.id.txtcconviIdade);
         txtcconviNome = (EditText) findViewById(R.id.txtcconviNome);
