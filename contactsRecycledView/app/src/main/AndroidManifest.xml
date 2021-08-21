@@ -11,7 +11,7 @@
         android:theme="@style/Theme.ContactsRecycledView">
 
         <activity
-            android:name=".UserListActivity"
+            android:name=".contact.UserListActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:theme="@style/Theme.AppCompat.NoActionBar">
             <intent-filter>
@@ -20,5 +20,4 @@
             </intent-filter>
         </activity>
     </application>
-
 </manifest>

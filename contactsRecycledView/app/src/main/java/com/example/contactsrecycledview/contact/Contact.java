@@ -1,4 +1,4 @@
-package com.example.contactsrecycledview;
+package com.example.contactsrecycledview.contact;
 
 import java.util.ArrayList;
 

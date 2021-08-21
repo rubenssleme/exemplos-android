@@ -1,10 +1,14 @@
-package com.example.contactsrecycledview;
+package com.example.contactsrecycledview.contact;
 
 import android.os.Bundle;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
+
+import com.example.contactsrecycledview.R;
+import com.example.contactsrecycledview.contact.Contact;
+import com.example.contactsrecycledview.contact.ContactsAdapter;
 
 import java.util.ArrayList;
 
