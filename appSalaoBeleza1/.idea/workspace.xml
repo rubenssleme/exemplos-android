@@ -86,233 +86,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f5af5b9b-f73e-44af-ba74-acb7d622d17e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../AppSalaoBeleza2/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AppSalaoBeleza2/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AppSalaoBeleza2/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AppSalaoBeleza2/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AppSalaoBeleza2/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AppSalaoBeleza2/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AppSalaoBeleza2/app/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AppSalaoBeleza2/app/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AppSalaoBeleza2/app/proguard-rules.pro" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AppSalaoBeleza2/app/src/androidTest/java/com/example/appsalaobeleza2/ExampleInstrumentedTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AppSalaoBeleza2/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AppSalaoBeleza2/app/src/main/java/com/example/appsalaobeleza2/MainActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AppSalaoBeleza2/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AppSalaoBeleza2/app/src/main/res/drawable-v24/my_button_bg.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AppSalaoBeleza2/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AppSalaoBeleza2/app/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AppSalaoBeleza2/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AppSalaoBeleza2/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AppSalaoBeleza2/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AppSalaoBeleza2/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AppSalaoBeleza2/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AppSalaoBeleza2/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AppSalaoBeleza2/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AppSalaoBeleza2/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AppSalaoBeleza2/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AppSalaoBeleza2/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AppSalaoBeleza2/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AppSalaoBeleza2/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AppSalaoBeleza2/app/src/main/res/values/attrs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AppSalaoBeleza2/app/src/main/res/values/colors.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AppSalaoBeleza2/app/src/main/res/values/strings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AppSalaoBeleza2/app/src/main/res/values/themes.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AppSalaoBeleza2/app/src/test/java/com/example/appsalaobeleza2/ExampleUnitTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AppSalaoBeleza2/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AppSalaoBeleza2/gradle.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AppSalaoBeleza2/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AppSalaoBeleza2/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AppSalaoBeleza2/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AppSalaoBeleza2/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AppSalaoBeleza2/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ConsumoAPIProduto/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ConsumoAPIProduto/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ConsumoAPIProduto/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ConsumoAPIProduto/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ConsumoAPIProduto/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ConsumoAPIProduto/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ConsumoAPIProduto/.idea/render.experimental.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ConsumoAPIProduto/app/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ConsumoAPIProduto/app/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ConsumoAPIProduto/app/proguard-rules.pro" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ConsumoAPIProduto/app/src/androidTest/java/com/example/consumoapiproduto/ExampleInstrumentedTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ConsumoAPIProduto/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ConsumoAPIProduto/app/src/main/ic_launcher_background-playstore.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ConsumoAPIProduto/app/src/main/java/com/example/consumoapiproduto/ConsultaActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ConsumoAPIProduto/app/src/main/java/com/example/consumoapiproduto/MenuActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ConsumoAPIProduto/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ConsumoAPIProduto/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ConsumoAPIProduto/app/src/main/res/drawable/ic_launcher_background_background.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ConsumoAPIProduto/app/src/main/res/layout/activity_consulta.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ConsumoAPIProduto/app/src/main/res/layout/activity_login.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ConsumoAPIProduto/app/src/main/res/layout/activity_menu.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ConsumoAPIProduto/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ConsumoAPIProduto/app/src/main/res/mipmap-anydpi-v26/ic_launcher_background.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ConsumoAPIProduto/app/src/main/res/mipmap-anydpi-v26/ic_launcher_background_round.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ConsumoAPIProduto/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ConsumoAPIProduto/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ConsumoAPIProduto/app/src/main/res/mipmap-hdpi/ic_launcher_background.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ConsumoAPIProduto/app/src/main/res/mipmap-hdpi/ic_launcher_background_foreground.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ConsumoAPIProduto/app/src/main/res/mipmap-hdpi/ic_launcher_background_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ConsumoAPIProduto/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ConsumoAPIProduto/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ConsumoAPIProduto/app/src/main/res/mipmap-mdpi/ic_launcher_background.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ConsumoAPIProduto/app/src/main/res/mipmap-mdpi/ic_launcher_background_foreground.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ConsumoAPIProduto/app/src/main/res/mipmap-mdpi/ic_launcher_background_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ConsumoAPIProduto/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ConsumoAPIProduto/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ConsumoAPIProduto/app/src/main/res/mipmap-xhdpi/ic_launcher_background.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ConsumoAPIProduto/app/src/main/res/mipmap-xhdpi/ic_launcher_background_foreground.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ConsumoAPIProduto/app/src/main/res/mipmap-xhdpi/ic_launcher_background_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ConsumoAPIProduto/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ConsumoAPIProduto/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ConsumoAPIProduto/app/src/main/res/mipmap-xxhdpi/ic_launcher_background.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ConsumoAPIProduto/app/src/main/res/mipmap-xxhdpi/ic_launcher_background_foreground.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ConsumoAPIProduto/app/src/main/res/mipmap-xxhdpi/ic_launcher_background_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ConsumoAPIProduto/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ConsumoAPIProduto/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ConsumoAPIProduto/app/src/main/res/mipmap-xxxhdpi/ic_launcher_background.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ConsumoAPIProduto/app/src/main/res/mipmap-xxxhdpi/ic_launcher_background_foreground.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ConsumoAPIProduto/app/src/main/res/mipmap-xxxhdpi/ic_launcher_background_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ConsumoAPIProduto/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ConsumoAPIProduto/app/src/main/res/values-night/themes.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ConsumoAPIProduto/app/src/main/res/values/colors.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ConsumoAPIProduto/app/src/main/res/values/strings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ConsumoAPIProduto/app/src/main/res/values/themes.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ConsumoAPIProduto/app/src/test/java/com/example/consumoapiproduto/ExampleUnitTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ConsumoAPIProduto/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ConsumoAPIProduto/gradle.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ConsumoAPIProduto/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ConsumoAPIProduto/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ConsumoAPIProduto/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ConsumoAPIProduto/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ConsumoAPIProduto/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/ic_launcher-playstore.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/appsalaobeleza1/controlador/BaseActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/appsalaobeleza1/controlador/CadastrarActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/appsalaobeleza1/controlador/ConsultarActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/appsalaobeleza1/controlador/LoginActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/appsalaobeleza1/controlador/MenuActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/appsalaobeleza1/dominio/Usuario.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/appsalaobeleza1/fabrica/FabricaUsuario.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/appsalaobeleza1/repositorio/RepositorioBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/appsalaobeleza1/repositorio/RepositorioUsuario.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/appsalaobeleza1/utils/Mensagem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/buttons_app.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_cadastrar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_consultar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_menu.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher_foreground.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher_foreground.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher_foreground.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher_foreground.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher_foreground.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/values/attrs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../apptccmobile-OK/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../crudAndroidSqlite-OK/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../exemploBDNovo/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../exemploBDNovo/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../exemploBDNovo/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../exemploBDNovo/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../exemploBDNovo/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../exemploBDNovo/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../exemploBDNovo/app/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../exemploBDNovo/app/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../exemploBDNovo/app/proguard-rules.pro" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../exemploBDNovo/app/src/androidTest/java/com/example/exemplobdnovo/ExampleInstrumentedTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../exemploBDNovo/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../exemploBDNovo/app/src/main/java/com/example/exemplobdnovo/controlador/BaseActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../exemploBDNovo/app/src/main/java/com/example/exemplobdnovo/controlador/MainActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../exemploBDNovo/app/src/main/java/com/example/exemplobdnovo/dominio/Usuario.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../exemploBDNovo/app/src/main/java/com/example/exemplobdnovo/fabrica/FabricaUsuario.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../exemploBDNovo/app/src/main/java/com/example/exemplobdnovo/repositorio/RepositorioBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../exemploBDNovo/app/src/main/java/com/example/exemplobdnovo/repositorio/RepositorioUsuario.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../exemploBDNovo/app/src/main/java/com/example/exemplobdnovo/utils/Mensagem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../exemploBDNovo/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../exemploBDNovo/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../exemploBDNovo/app/src/main/res/layout/activity_cadastrar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../exemploBDNovo/app/src/main/res/layout/activity_consultar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../exemploBDNovo/app/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../exemploBDNovo/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../exemploBDNovo/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../exemploBDNovo/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../exemploBDNovo/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../exemploBDNovo/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../exemploBDNovo/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../exemploBDNovo/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../exemploBDNovo/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../exemploBDNovo/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../exemploBDNovo/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../exemploBDNovo/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../exemploBDNovo/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../exemploBDNovo/app/src/main/res/values/colors.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../exemploBDNovo/app/src/main/res/values/strings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../exemploBDNovo/app/src/main/res/values/themes.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../exemploBDNovo/app/src/test/java/com/example/exemplobdnovo/ExampleUnitTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../exemploBDNovo/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../exemploBDNovo/gradle.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../exemploBDNovo/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../exemploBDNovo/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../exemploBDNovo/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../exemploBDNovo/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../exemploBDNovo/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../setaBotaoVoltar/.idea/render.experimental.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../agendaDeContatos2/app/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../agendaDeContatos2/app/src/main/res/values/colors.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../agendaDeContatos2/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../agendaDeContatos2/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppSalaoDeBeleza.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ConsumoAPIProduto.rar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ConsumoAPIProduto.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../agendaDeContatos2.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../agendaDeContatos2/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../agendaDeContatos2/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../agendaDeContatos2/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../agendaDeContatos2/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../agendaDeContatos2/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../appSalaoBeleza1.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/appsalaobeleza1/LoginActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ConsumoAPIProduto/app/src/main/java/com/example/consumoapiproduto/LoginActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/appsalaobeleza1/SplashActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/appsalaobeleza1/controlador/SplashActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_splash.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_splash.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values-night/themes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../exemploBDNovo/app/src/main/res/values-night/themes.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/themes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/themes.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apptccmobile-OK/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/../apptccmobile-OK/.idea/caches/build_file_checksums.ser" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apptccmobile-OK/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../apptccmobile-OK/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apptccmobile-OK/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../apptccmobile-OK/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apptccmobile-OK/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../apptccmobile-OK/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apptccmobile-OK/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../apptccmobile-OK/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apptccmobile-OK/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../apptccmobile-OK/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../consumoApiCep-OK.zip" beforeDir="false" afterPath="$PROJECT_DIR$/../consumoApiCep-OK.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../consumoApiCep-OK/app/src/main/java/com/example/consumoapicep/Async.java" beforeDir="false" afterPath="$PROJECT_DIR$/../consumoApiCep-OK/app/src/main/java/com/example/consumoapicep/Async.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../consumoApiCep-OK/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../consumoApiCep-OK/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../crudAndroidSqlite-OK/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/../crudAndroidSqlite-OK/.idea/caches/build_file_checksums.ser" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../crudAndroidSqlite-OK/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../crudAndroidSqlite-OK/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../crudAndroidSqlite-OK/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../crudAndroidSqlite-OK/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../crudAndroidSqlite-OK/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../crudAndroidSqlite-OK/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../crudAndroidSqlite-OK/app/src/main/java/br/com/bg/apptccmobile/controladores/Tela_Cadastrar_Convidado.java" beforeDir="false" afterPath="$PROJECT_DIR$/../crudAndroidSqlite-OK/app/src/main/java/br/com/bg/apptccmobile/controladores/Tela_Cadastrar_Convidado.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../crudAndroidSqlite-OK/app/src/main/java/br/com/bg/apptccmobile/repositorios/RepositorioBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/../crudAndroidSqlite-OK/app/src/main/java/br/com/bg/apptccmobile/repositorios/RepositorioBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../crudAndroidSqlite-OK/app/src/main/java/br/com/bg/apptccmobile/repositorios/RepositorioUsuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/../crudAndroidSqlite-OK/app/src/main/java/br/com/bg/apptccmobile/repositorios/RepositorioUsuario.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../crudAndroidSqlite-OK/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../crudAndroidSqlite-OK/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../crudAndroidSqlite-OK/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../crudAndroidSqlite-OK/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumoApiCep-OK.zip" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[VirtualDevicePath@C:\Users\m1\.android\avd\Pixel_3a_API_30_x86.avd]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[/root/.android/avd/Pixel_4_API_29.avd]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -344,7 +137,8 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="android.recentlyUsedThemes" value="Base.Theme.AppCompat.Light&#10;Base.Theme.AppCompat.Dialog&#10;Theme.Design.Light&#10;Theme.Design.Light.NoActionBar" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../aplicativos mobile/consumoApiVendas" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="recommended.upgrade.last.time.stamp" value="1629499326712" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
@@ -462,49 +256,5 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="765" y="236" width="771" height="568" key="#com.intellij.ide.util.MemberChooser" timestamp="1616460099311">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="765" y="236" width="771" height="568" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1616460099311" />
-    <state x="540" y="225" key="AndroidThemeDialog" timestamp="1615247040346">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="540" y="225" key="AndroidThemeDialog/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1614301561120" />
-    <state x="540" y="225" key="AndroidThemeDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1615247040346" />
-    <state x="305" y="133" key="FileChooserDialogImpl" timestamp="1620425569390">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="305" y="133" key="FileChooserDialogImpl/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1620425569390" />
-    <state x="717" y="84" key="FileChooserDialogImpl/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1616447652970" />
-    <state width="1876" height="124" key="GridCell.Tab.0.bottom" timestamp="1616716837131">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1876" height="124" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1616716837131" />
-    <state width="1876" height="124" key="GridCell.Tab.0.center" timestamp="1616716837131">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1876" height="124" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1616716837131" />
-    <state width="1876" height="124" key="GridCell.Tab.0.left" timestamp="1616716837130">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1876" height="124" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1616716837130" />
-    <state width="1876" height="124" key="GridCell.Tab.0.right" timestamp="1616716837131">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1876" height="124" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1616716837131" />
-    <state x="461" y="164" key="SettingsEditor" timestamp="1620425518881">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="461" y="164" key="SettingsEditor/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1620425518881" />
-    <state x="221" y="176" key="chooseDestDirectoryDialog" timestamp="1614904214443">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="221" y="176" key="chooseDestDirectoryDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1614904214443" />
-    <state x="457" y="193" width="672" height="678" key="search.everywhere.popup" timestamp="1614300442144">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="457" y="193" width="672" height="678" key="search.everywhere.popup/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1614300442144" />
   </component>
 </project>
