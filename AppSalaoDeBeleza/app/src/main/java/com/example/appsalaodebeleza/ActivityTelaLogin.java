@@ -13,7 +13,7 @@ public class ActivityTelaLogin extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
-        buttonEnviar = findViewById(R.id.buttonEnviar);//Atribuição do Objeto Botao da activity
+        buttonEnviar = findViewById(R.id.buttonEnviar2);//Atribuição do Objeto Botao da activity
         abrirTelaMenu();                                           //Classe java.
     }
 

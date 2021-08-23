@@ -25,17 +25,18 @@ public class SociosFragment extends Fragment {
 
     private SociosViewModel homeViewModel;
 
-    public View onCreateView(@NonNull final LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
+    public View onCreateView(final LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         homeViewModel = ViewModelProviders.of(this).get(SociosViewModel.class);
         final View root = inflater.inflate(R.layout.fragment_socios, container, false);
-        final TextView textView = root.findViewById(R.id.text_socios);
+        final TextView textView = root.findViewById(R.id.textViewSocios);
 
 
 
         homeViewModel.getText().observe(getViewLifecycleOwner(), new Observer<String>() {
             @Override
             public void onChanged(String s) {
-                textView.setText(s);
+               // textView.setText("Hoje é so caros Alunos!");
+
             }
         });
         return root;
