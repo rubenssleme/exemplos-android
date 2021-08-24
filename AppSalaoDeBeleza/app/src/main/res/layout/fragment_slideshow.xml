@@ -47,7 +47,7 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="420dp"
+            android:layout_height="374dp"
             android:orientation="horizontal">
 
         </LinearLayout>
@@ -56,6 +56,13 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textViewAlison"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="TextView" />
 
             <Button
                 android:id="@+id/buttonEnviar2"

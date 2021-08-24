@@ -35,7 +35,7 @@ public class SociosFragment extends Fragment {
         homeViewModel.getText().observe(getViewLifecycleOwner(), new Observer<String>() {
             @Override
             public void onChanged(String s) {
-               // textView.setText("Hoje é so caros Alunos!");
+                textView.setText("Hoje é so caros Alunos!");
 
             }
         });

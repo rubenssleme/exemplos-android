@@ -3,15 +3,20 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/ambiente-dev/workspace-android/exemplos-android/AppSalaoDeBeleza/app/src/main/res/layout/activity_menu.xml" value="0.19739583333333333" />
+        <entry key="..\:/ambiente-dev/workspace-android/exemplos-android/AppSalaoDeBeleza/app/src/main/res/drawable/button_beauty_full.xml" value="0.37083333333333335" />
+        <entry key="..\:/ambiente-dev/workspace-android/exemplos-android/AppSalaoDeBeleza/app/src/main/res/layout/activity_login.xml" value="0.3390625" />
+        <entry key="..\:/ambiente-dev/workspace-android/exemplos-android/AppSalaoDeBeleza/app/src/main/res/layout/activity_menu.xml" value="0.33" />
         <entry key="..\:/ambiente-dev/workspace-android/exemplos-android/AppSalaoDeBeleza/app/src/main/res/layout/activity_splash.xml" value="0.19739583333333333" />
         <entry key="..\:/ambiente-dev/workspace-android/exemplos-android/AppSalaoDeBeleza/app/src/main/res/layout/app_bar_main.xml" value="0.19739583333333333" />
         <entry key="..\:/ambiente-dev/workspace-android/exemplos-android/AppSalaoDeBeleza/app/src/main/res/layout/content_main.xml" value="0.19739583333333333" />
         <entry key="..\:/ambiente-dev/workspace-android/exemplos-android/AppSalaoDeBeleza/app/src/main/res/layout/fragment_alteracao.xml" value="0.19739583333333333" />
         <entry key="..\:/ambiente-dev/workspace-android/exemplos-android/AppSalaoDeBeleza/app/src/main/res/layout/fragment_gallery.xml" value="0.19739583333333333" />
         <entry key="..\:/ambiente-dev/workspace-android/exemplos-android/AppSalaoDeBeleza/app/src/main/res/layout/fragment_home.xml" value="0.19739583333333333" />
-        <entry key="..\:/ambiente-dev/workspace-android/exemplos-android/AppSalaoDeBeleza/app/src/main/res/layout/fragment_slideshow.xml" value="0.19739583333333333" />
+        <entry key="..\:/ambiente-dev/workspace-android/exemplos-android/AppSalaoDeBeleza/app/src/main/res/layout/fragment_slideshow.xml" value="0.5" />
         <entry key="..\:/ambiente-dev/workspace-android/exemplos-android/AppSalaoDeBeleza/app/src/main/res/layout/fragment_socios.xml" value="0.3546875" />
+        <entry key="..\:/ambiente-dev/workspace-android/exemplos-android/AppSalaoDeBeleza/app/src/main/res/layout/nav_header_main.xml" value="0.3546875" />
+        <entry key="..\:/ambiente-dev/workspace-android/exemplos-android/AppSalaoDeBeleza/app/src/main/res/menu/activity_main_drawer.xml" value="0.18" />
+        <entry key="..\:/ambiente-dev/workspace-android/exemplos-android/AppSalaoDeBeleza/app/src/main/res/menu/activity_tela_menu.xml" value="0.3390625" />
       </map>
     </option>
   </component>
@@ -20,5 +25,12 @@
   </component>
   <component name="ProjectType">
     <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.5" />
+      </ProjectState>
+    </option>
   </component>
 </project>
