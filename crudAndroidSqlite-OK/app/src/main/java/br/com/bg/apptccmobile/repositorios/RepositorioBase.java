@@ -124,10 +124,5 @@ public abstract class RepositorioBase extends SQLiteOpenHelper {
         return sucesso;
     }
 
-    /*public ResultSet obterPor (String sql) {
-        ResultSet resultado = null;
-        try {
-
-        }
-    } */
+   
 }

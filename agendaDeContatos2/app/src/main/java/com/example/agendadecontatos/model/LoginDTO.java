@@ -1,4 +1,4 @@
-package com.example.agendadecontatos;
+package com.example.agendadecontatos.model;
 
 public class LoginDTO {
     //Atributos
@@ -47,6 +47,7 @@ public class LoginDTO {
     public void setSenha(String senha) {
         this.senha = senha;
     }
+
 
     public boolean autenticar(String usuario, String senha){
         if(this.usuario.equals(usuario)&&this.senha.equals(senha)){

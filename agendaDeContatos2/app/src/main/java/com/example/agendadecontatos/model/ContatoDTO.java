@@ -1,4 +1,4 @@
-package com.example.agendadecontatos;
+package com.example.agendadecontatos.model;
 
 public class ContatoDTO {
     private int id;

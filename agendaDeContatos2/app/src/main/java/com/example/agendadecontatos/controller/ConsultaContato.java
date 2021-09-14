@@ -1,4 +1,4 @@
-package com.example.agendadecontatos;
+package com.example.agendadecontatos.controller;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -8,6 +8,11 @@ import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.ListView;
+
+import com.example.agendadecontatos.R;
+import com.example.agendadecontatos.controller.CadastrarContato;
+import com.example.agendadecontatos.model.ContatoDTO;
+import com.example.agendadecontatos.repository.ContatoDAO;
 
 import java.util.ArrayList;
 

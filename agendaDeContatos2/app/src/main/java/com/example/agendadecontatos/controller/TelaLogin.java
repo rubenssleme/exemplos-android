@@ -1,4 +1,4 @@
-package com.example.agendadecontatos;
+package com.example.agendadecontatos.controller;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -8,6 +8,9 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
+
+import com.example.agendadecontatos.R;
+import com.example.agendadecontatos.model.LoginDTO;
 
 public class TelaLogin extends AppCompatActivity {
 Button buttonEnviar;
@@ -53,7 +56,7 @@ LoginDTO dao;
 
         if(dtoLogin.autenticar(usuario,senha)){
             //Ir para a tela de menu.
-            Intent telaMenu = new Intent(getApplicationContext(),MainActivity.class);
+            Intent telaMenu = new Intent(getApplicationContext(), MainActivity.class);
             startActivity(telaMenu);
         }else{
             Toast.makeText(this, "Usuario ou Senha incorretos!", Toast.LENGTH_SHORT).show();

@@ -1,4 +1,4 @@
-package com.example.agendadecontatos;
+package com.example.agendadecontatos.controller;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -8,6 +8,10 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
+
+import com.example.agendadecontatos.R;
+import com.example.agendadecontatos.model.ContatoDTO;
+import com.example.agendadecontatos.repository.ContatoDAO;
 
 public class CadastrarContato extends AppCompatActivity {
     EditText editTextNome;
