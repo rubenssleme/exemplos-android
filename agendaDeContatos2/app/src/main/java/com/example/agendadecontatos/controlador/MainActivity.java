@@ -1,4 +1,4 @@
-package com.example.agendadecontatos.controller;
+package com.example.agendadecontatos.controlador;
 
 import androidx.appcompat.app.AppCompatActivity;
 

@@ -1,4 +1,4 @@
-package com.example.agendadecontatos.controller;
+package com.example.agendadecontatos.controlador;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -10,7 +10,7 @@ import android.widget.EditText;
 import android.widget.Toast;
 
 import com.example.agendadecontatos.R;
-import com.example.agendadecontatos.model.LoginDTO;
+import com.example.agendadecontatos.modelo.LoginDTO;
 
 public class TelaLogin extends AppCompatActivity {
 Button buttonEnviar;

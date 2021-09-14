@@ -1,4 +1,4 @@
-package com.example.agendadecontatos.model;
+package com.example.agendadecontatos.modelo;
 
 public class LoginDTO {
     //Atributos

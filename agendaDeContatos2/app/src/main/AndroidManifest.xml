@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".controller.TelaSplash"
+            android:name=".controlador.TelaSplash"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:theme="@style/Theme.AppCompat.NoActionBar">
             <intent-filter>
@@ -19,15 +19,15 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".controller.TelaLogin"
+            android:name=".controlador.TelaLogin"
             android:label="Login"></activity>
         <activity
-            android:name=".controller.ConsultaContato"
+            android:name=".controlador.ConsultaContato"
             android:label="Consulta Contato" />
         <activity
-            android:name=".controller.CadastrarContato"
+            android:name=".controlador.CadastrarContato"
             android:label="Cadastro Contato" />
-        <activity android:name=".controller.MainActivity" android:label="Menu" />
+        <activity android:name=".controlador.MainActivity" android:label="Menu" />
     </application>
 
 </manifest>

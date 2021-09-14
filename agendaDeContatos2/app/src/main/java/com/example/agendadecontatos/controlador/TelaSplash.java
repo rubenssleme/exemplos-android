@@ -1,4 +1,4 @@
-package com.example.agendadecontatos.controller;
+package com.example.agendadecontatos.controlador;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -6,7 +6,6 @@ import android.content.Intent;
 import android.os.Bundle;
 
 import com.example.agendadecontatos.R;
-import com.example.agendadecontatos.controller.TelaLogin;
 
 import java.util.Timer;
 import java.util.TimerTask;

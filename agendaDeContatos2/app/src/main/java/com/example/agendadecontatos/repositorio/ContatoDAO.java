@@ -1,4 +1,4 @@
-package com.example.agendadecontatos.repository;
+package com.example.agendadecontatos.repositorio;
 
 import android.content.ContentValues;
 import android.content.Context;
@@ -8,8 +8,8 @@ import android.database.sqlite.SQLiteOpenHelper;
 
 import androidx.annotation.Nullable;
 
-import com.example.agendadecontatos.model.ContatoDTO;
-import com.example.agendadecontatos.model.LoginDTO;
+import com.example.agendadecontatos.modelo.ContatoDTO;
+import com.example.agendadecontatos.modelo.LoginDTO;
 
 import java.util.ArrayList;
 
