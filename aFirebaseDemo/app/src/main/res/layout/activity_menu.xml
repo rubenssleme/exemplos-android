@@ -34,4 +34,18 @@
         android:typeface="monospace"
         app:fontFamily="@font/lato_bold"/>
 
+    <Button
+        android:id="@+id/btnSalvarUsuario"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/register"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="200dp"
+        android:background="@drawable/bkg_radius_button"
+        android:text="salvar usuario"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="@android:color/white"
+        android:typeface="monospace"
+        app:fontFamily="@font/lato_bold" />
+
 </RelativeLayout>

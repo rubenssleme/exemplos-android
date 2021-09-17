@@ -1,29 +1,29 @@
 package com.example.agendadecontatos.modelo;
 
-public class LoginDTO {
+public class Login {
     //Atributos
-    private int id;
+    private Long id;
     private String nome;
     private String usuario;
     private String senha;
 
     //Contrutores
-    public LoginDTO() {
+    public Login() {
 
     }
 
-    public LoginDTO(String nome, String usuario, String senha) {
+    public Login(String nome, String usuario, String senha) {
         this.nome = nome;
         this.usuario = usuario;
         this.senha = senha;
     }
 
     //Getters e Setters
-    public int getId() {
+    public Long getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(Long id) {
         this.id = id;
     }
 

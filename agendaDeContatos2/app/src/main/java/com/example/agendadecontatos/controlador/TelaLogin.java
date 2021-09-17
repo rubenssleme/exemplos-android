@@ -10,7 +10,7 @@ import android.widget.EditText;
 import android.widget.Toast;
 
 import com.example.agendadecontatos.R;
-import com.example.agendadecontatos.modelo.LoginDTO;
+import com.example.agendadecontatos.modelo.Login;
 
 public class TelaLogin extends AppCompatActivity {
 Button buttonEnviar;
@@ -18,8 +18,8 @@ Button buttonCancelar;
 EditText editTextUsuario;
 EditText editTextSenha;
 //Usuario e senha de teste.
-LoginDTO dtoLogin = new LoginDTO("Rubens","admin","admin");
-LoginDTO dao;
+Login dtoLogin = new Login("Rubens","admin","admin");
+Login dao;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

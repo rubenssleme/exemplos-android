@@ -8,17 +8,36 @@ import android.util.Log;
 
 import androidx.annotation.Nullable;
 
-public class RepositorioBase extends SQLiteOpenHelper {
+public abstract class RepositorioBase extends SQLiteOpenHelper {
+    /**
+     * declaração versão e nome do banco de dados.
+     */
+    private static final int DATABASE_VERSION = 1;
+    public static final String DATABASE_NAME = "DB_Contatos";
+    private Context context;
+
+    /**
+     * declaração das tabelas de banco de dados.
+     */
     private final String TABELA_CONTATO = "TB_CONTATO";
     private final String TABELA_LOGIN = "TB_LOGIN";
 
 
-    public RepositorioBase(@Nullable Context context) {
-        super(context, "DB_Contatos", null, 1);
+    public RepositorioBase(Context context) {
+        super(context, DATABASE_NAME, null, DATABASE_VERSION);
+        this.context = context;
     }
 
     @Override
     public void onCreate(SQLiteDatabase db) {
+        criarTabelaLogin(db);
+        criarTabelaContato(db);
+
+    }
+
+
+
+    private void criarTabelaContato(SQLiteDatabase db){
         String sql = "CREATE TABLE " + TABELA_CONTATO + " (" +
                 "ID INTEGER PRIMARY KEY," +
                 "NOME VARCHAR(100)," +
@@ -27,7 +46,9 @@ public class RepositorioBase extends SQLiteOpenHelper {
                 "ENDERECO VARCHAR(50))";
 
         db.execSQL(sql);
+    }
 
+    private void criarTabelaLogin(SQLiteDatabase db){
         String sqlLogin = "CREATE TABLE " + TABELA_LOGIN + " (" +
                 "ID INTEGER PRIMARY KEY," +
                 "NOME VARCHAR(100)," +
@@ -37,13 +58,7 @@ public class RepositorioBase extends SQLiteOpenHelper {
 
     }
 
-    @Override
-    public void onUpgrade(SQLiteDatabase sqLiteDatabase, int i, int i1) {
-
-    }
-
-
-    public boolean inserir(String nomeTabela, ContentValues objeto) {
+    public   boolean inserir(String nomeTabela, ContentValues objeto) {
         boolean sucesso = false;
         SQLiteDatabase db = this.getWritableDatabase();
 
@@ -57,7 +72,6 @@ public class RepositorioBase extends SQLiteOpenHelper {
 
         return sucesso;
     }
-
 }
 
 

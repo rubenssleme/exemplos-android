@@ -9,7 +9,7 @@ import android.database.sqlite.SQLiteOpenHelper;
 import androidx.annotation.Nullable;
 
 import com.example.agendadecontatos.modelo.ContatoDTO;
-import com.example.agendadecontatos.modelo.LoginDTO;
+import com.example.agendadecontatos.modelo.Login;
 
 import java.util.ArrayList;
 
@@ -82,13 +82,13 @@ public class ContatoDAO extends SQLiteOpenHelper  {
         return listaContato;
     }
 
-    public ArrayList<LoginDTO> consultarPorUsuarioESenha(String usuario, String senha ){
+    public ArrayList<Login> consultarPorUsuarioESenha(String usuario, String senha ){
         String comando  = "SELECT * FROM " + TABELA_LOGIN + " WHERE USUARIO= '" + usuario + "'AND SENHA= '" + senha +"'";
         Cursor cursor = getReadableDatabase().rawQuery(comando,null);
-        ArrayList<LoginDTO> listaLogin = new ArrayList<>();
+        ArrayList<Login> listaLogin = new ArrayList<>();
 
         while (cursor.moveToNext()){
-            LoginDTO dtoLogin = new LoginDTO();
+            Login dtoLogin = new Login();
             dtoLogin.setId(cursor.getInt(0));
             dtoLogin.setNome(cursor.getString(1));
             dtoLogin.setUsuario(cursor.getString(2));

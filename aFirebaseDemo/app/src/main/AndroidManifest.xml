@@ -19,6 +19,17 @@
         android:theme="@style/AppTheme"
         tools:ignore="AllowBackup,GoogleAppIndexingWarning">
         <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+
+        </activity>
+
+        <activity
             android:name=".activity.PrincipalActivity"
             android:exported="true" />
         <activity
@@ -27,11 +38,6 @@
         <activity android:name=".activity.MenuActivity" />
         <activity android:name=".activity.RegisterActivity" />
         <activity android:name=".activity.SplashScreenActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
 
         <meta-data

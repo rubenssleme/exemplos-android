@@ -4,12 +4,18 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/corTelaLogin"
-    tools:context=".controlador.TelaSplash" >
+       tools:context=".controlador.TelaSplash" >
 
     <ImageView
         android:id="@+id/imageView5"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         app:srcCompat="@mipmap/ic_logo_bg_foreground" />
+
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="match_parent"
+        android:layout_height="39dp"
+        android:text="Switch" />
+
 </FrameLayout>
