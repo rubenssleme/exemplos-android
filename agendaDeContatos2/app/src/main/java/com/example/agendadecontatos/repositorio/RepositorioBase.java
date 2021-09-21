@@ -8,6 +8,8 @@ import android.util.Log;
 
 import androidx.annotation.Nullable;
 
+import com.example.agendadecontatos.modelo.Login;
+
 public abstract class RepositorioBase extends SQLiteOpenHelper {
     /**
      * declaração versão e nome do banco de dados.
@@ -72,6 +74,8 @@ public abstract class RepositorioBase extends SQLiteOpenHelper {
 
         return sucesso;
     }
+
+
 }
 
 

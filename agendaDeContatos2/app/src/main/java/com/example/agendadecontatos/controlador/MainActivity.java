@@ -24,7 +24,7 @@ Button buttonConsultar;
             public void onClick(View view) {
                 // Qual tela  ou Activity vou abrir
                 Intent telaCadastrar = new Intent();
-                telaCadastrar.setClass(MainActivity.this, CadastrarContato.class);
+                telaCadastrar.setClass(MainActivity.this, CadastrarLogin.class);
                 startActivity(telaCadastrar);
             }
         });
@@ -32,7 +32,7 @@ Button buttonConsultar;
             @Override
             public void onClick(View view) {
                 // Qual tela  ou Activity vou abrir
-                Intent telaConsultar = new Intent(getApplicationContext(), ConsultaContato.class);
+                Intent telaConsultar = new Intent(getApplicationContext(), ConsultaLogin.class);
                 startActivity(telaConsultar);
             }
         });

@@ -25,10 +25,10 @@ public class CadastrarContato extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_cadastrar_contato);
-        editTextNome = findViewById(R.id.editTextNomeContato);
-        editTextEmail = findViewById(R.id.editTextEmailContato);
+        editTextNome = findViewById(R.id.editTextNomeLogin);
+        editTextEmail = findViewById(R.id.editTextUsuarioLogin);
         editTextTelefone = findViewById(R.id.editTextTelefoneContato);
-        editTextEndereco = findViewById(R.id.editTextEnderecoContato);
+        editTextEndereco = findViewById(R.id.editTextSenhaLogin);
         buttonSalvar = findViewById(R.id.buttonSalvarContato);
 
         buttonSalvar.setOnClickListener(new View.OnClickListener() {

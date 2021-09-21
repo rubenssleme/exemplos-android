@@ -89,7 +89,7 @@ public class ContatoDAO extends SQLiteOpenHelper  {
 
         while (cursor.moveToNext()){
             Login dtoLogin = new Login();
-            dtoLogin.setId(cursor.getInt(0));
+         //   dtoLogin.setId(cursor.getInt(0));
             dtoLogin.setNome(cursor.getString(1));
             dtoLogin.setUsuario(cursor.getString(2));
             dtoLogin.setSenha(cursor.getString(3));

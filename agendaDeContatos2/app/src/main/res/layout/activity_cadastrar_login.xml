@@ -27,25 +27,17 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
-                android:hint="Digite o Nome do Contato"
+                android:hint="Digite o Nome do Usuario"
                 android:inputType="textPersonName"
                 android:textColorHighlight="#673AB7"
                 android:textColorLink="#9C27B0" />
-
-            <EditText
-                android:id="@+id/editTextTelefoneContato"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:ems="10"
-                android:hint="Digite o Telefone do Contato"
-                android:inputType="phone" />
 
             <EditText
                 android:id="@+id/editTextUsuarioLogin"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
-                android:hint="Digite o E-mail do Contato"
+                android:hint="Digite o Login do Usuario"
                 android:inputType="textEmailAddress" />
 
             <EditText
@@ -53,7 +45,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
-                android:hint="Digite o Endereço do Contato"
+                android:hint="Digite a Senha do Usuario"
                 android:inputType="textPersonName" />
 
             <LinearLayout

@@ -22,7 +22,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@drawable/my_button_bg"
-            android:text="Cadastrar"
+            android:text="Cadastrar Login"
             android:textColor="#FFFFFF" />
 
         <Button
@@ -30,7 +30,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@drawable/my_button_bg"
-            android:text="Consultar"
+            android:text="Consultar Login"
             android:textColor="#FFFFFF" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

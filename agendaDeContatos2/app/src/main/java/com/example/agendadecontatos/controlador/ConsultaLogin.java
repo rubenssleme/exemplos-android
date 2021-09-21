@@ -1,7 +1,5 @@
 package com.example.agendadecontatos.controlador;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -9,40 +7,42 @@ import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.ListView;
 
+import androidx.appcompat.app.AppCompatActivity;
+
 import com.example.agendadecontatos.R;
 import com.example.agendadecontatos.modelo.ContatoDTO;
+import com.example.agendadecontatos.modelo.Login;
 import com.example.agendadecontatos.repositorio.ContatoDAO;
+import com.example.agendadecontatos.repositorio.LoginRepositorio;
 
 import java.util.ArrayList;
 
-public class ConsultaContato extends AppCompatActivity {
+public class ConsultaLogin extends AppCompatActivity {
     Button buttonNovoContato;
     ListView listViewContato;
-    ArrayList<ContatoDTO> arrayListContato;
+    ArrayList<Login> arrayListLogin;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_consulta_contato);
+        setContentView(R.layout.activity_consulta_login);
         buttonNovoContato = findViewById(R.id.buttonNovoContato);
         listViewContato = findViewById(R.id.listViewLogin);
-        ContatoDAO daoContato = new ContatoDAO(getApplicationContext());
+       LoginRepositorio loginRepositorio = new LoginRepositorio(getApplicationContext());
 
-        arrayListContato = daoContato.consultarTodos();
-        ArrayAdapter adapter = new ArrayAdapter(getApplicationContext(), android.R.layout.simple_list_item_1, arrayListContato);
+        arrayListLogin = (ArrayList<Login>) loginRepositorio.obterTodos();
+        ArrayAdapter adapter = new ArrayAdapter(getApplicationContext(), android.R.layout.simple_list_item_1, arrayListLogin);
 
         listViewContato.setAdapter(adapter);
-
-
-        cadastrarNovoContato();
+        cadastrarNovoLogin();
     }
 
-    private void cadastrarNovoContato() {
+    private void cadastrarNovoLogin() {
         buttonNovoContato.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent novoContato = new Intent(getApplicationContext(), CadastrarContato.class);
-                startActivity(novoContato);
+                Intent novoLogin = new Intent(getApplicationContext(), CadastrarLogin.class);
+                startActivity(novoLogin);
             }
         });
     }

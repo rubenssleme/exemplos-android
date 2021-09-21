@@ -25,7 +25,13 @@
             android:name=".controlador.ConsultaContato"
             android:label="Consulta Contato" />
         <activity
+            android:name=".controlador.ConsultaLogin"
+            android:label="Consulta Contato" />
+        <activity
             android:name=".controlador.CadastrarContato"
+            android:label="Cadastro Contato" />
+        <activity
+            android:name=".controlador.CadastrarLogin"
             android:label="Cadastro Contato" />
         <activity android:name=".controlador.MainActivity" android:label="Menu" />
     </application>

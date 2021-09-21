@@ -59,7 +59,7 @@ public class Login {
     //ToString
     @Override
     public String toString() {
-        return "DtoLogin{" +
+        return "Login{" +
                 "nome='" + nome + '\'' +
                 ", usuario='" + usuario + '\'' +
                 ", senha='" + senha + '\'' +
