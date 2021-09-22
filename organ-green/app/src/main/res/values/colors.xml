@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorGreen255">#00ff00</color>
+    <color name="colorGreen230">#00e600</color>
+    <color name="colorGreen204">#00cc00</color>
+    <color name="colorGreen179">#00b300</color>
+    <color name="colorGreen153">#009900</color>
+    <color name="colorGreen128">#008000</color>
+    <color name="colorGreen102">#006600</color>
+    <color name="colorGreen77">#004d00</color>
+    <color name="colorGreen51">#003300</color>
+    <color name="colorGreen25">#001900</color>
+    <!-- Green Colors-->
+
+    <color name="colorPrimaryOld">#37981B</color>
+    <color name="colorPrimaryDarkOld">#37981B</color>
+    <!-- Green Colors-->
+    <color name="colorPrimary51">#003300</color>
+    <color name="colorPrimaryDark25">#001900</color>
+    <color name="colorAccent">#37981B</color>
+    <color name="colorOutline">#808080</color>
+    <color name="colorGray">#DCDCDC</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorBackgroundApp">#ECECEC</color>
+    <color name="ic_organapp_background">#FFFFFF</color>
+    <color name="colorBlack">#030303</color>
+    <color name="colorStar">#FFBE3C</color>
+</resources>
