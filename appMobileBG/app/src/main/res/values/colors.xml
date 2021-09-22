@@ -1,14 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#34445c</color>
-    <color name="colorPrimaryDark">#1c2c44</color>
-    <color name="colorAccent">#03DAC5</color>
-    <color name="black_overlay">#66000000</color>
+    <color name="colorPrimaryDark">#a1347f</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="laranja_500">#f4a527</color>
+    <color name="laranja_700">#fa6b07</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="Amarelo">#FFFF00</color>
 
-    <!--    minha palheta de cores Prof Rubens-->
-    <color name="corTelaSplash">#ffffff</color>
-    <color name="corTelaLogin">#ffffff</color>
+    <!-- Minhas cores projeto -->
 
+    <color name="laranja_05">#faf9f1</color>
+    <color name="laranja_10">#fad39f</color>
+    <color name="laranja_15">#fac673</color>
+    <color name="laranja_20">#e9a484</color>
+    <color name="laranja_30">#f1a356</color>
+    <color name="laranja_40">#d48c29</color>
 
 
 

@@ -1,0 +1,10 @@
+
+I
+java:S1602!",Remove useless curly braces around statement( Ë©§8ÀÃ’†/
+N
+java:S1602#",Remove useless curly braces around statement(¹—øüÿÿÿÿ8­àš‘†/
+V	java:S110"<This class has 9 parents which is greater than 5 authorized.(ïÊÆÿÿÿÿÿ
+…
+java:S1450"cRemove the "recyclerViewProdutos" field and declare it as a local variable in the relevant methods.(˜¿—›úÿÿÿÿ8í¡Ï‘†/
+E
+java:S1604"(Make this anonymous inner class a lambda(Š¤À8ã»¬†/

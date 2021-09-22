@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Palheta de cores do meu aplicativo mobile -->
+    <color name="inter_10">#faf9f1</color>
+    <color name="inter_20">#fb8505</color>
+    <color name="inter_30">#f1a356</color>
+    <color name="inter_40">#fad39f</color>
+    <color name="inter_50">#f18f2d</color>
+    <color name="inter_60">#fac673</color>
+    <color name="inter_70">#f4a527</color>
+    <color name="inter_80">#fa6b07</color>
+    <color name="inter_90">#e9a484</color>
+    <color name="inter_100">#d48c29</color>
+
+
+
+
+
+</resources>

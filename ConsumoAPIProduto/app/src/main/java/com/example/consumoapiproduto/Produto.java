@@ -1,5 +1,4 @@
 package com.example.consumoapiproduto;
-
 public class Produto {
     private String id;
     private String nome;

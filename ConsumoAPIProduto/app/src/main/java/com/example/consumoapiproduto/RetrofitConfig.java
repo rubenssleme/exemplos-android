@@ -9,12 +9,12 @@ public class RetrofitConfig {
 
     public RetrofitConfig() {
         this.retrofit = new Retrofit.Builder()
-                .baseUrl("https://apirest-produto1.herokuapp.com/api/produtos")
+                .baseUrl("https://apirest-produto1.herokuapp.com/api/")
                 .addConverterFactory(JacksonConverterFactory.create())
                 .build();
     }
 
-    public ProdutoService getProdutoService() {
-        return this.retrofit.create(ProdutoService.class);
+    public ProdutoClient getProdutoService() {
+        return this.retrofit.create(ProdutoClient.class);
     }
 }

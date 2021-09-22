@@ -2,15 +2,19 @@ package com.example.consumoapiproduto;
 
 import java.util.List;
 
-import retrofit2.Call;
-import retrofit2.http.GET;
-import retrofit2.http.Path;
+public class ProdutoService {
 
-public interface ProdutoService {
+    private ProdutoClient produtoClient;
 
-    @GET("produto/{id}")
-    Call<Produto> buscarProduto(@Path("id") Long id);
+    public ProdutoService() {
+        this.produtoClient = RetrofitClient.getInstance(ProdutoClient.class);
+    }
 
-    @GET("produtos")
-    Call<List<Produto>> buscarProdutos();
+    public Observable<Produto> buscarProduto(Long id) {
+        return new Observable<>(this.produtoClient.buscarProduto(id));
+    }
+
+    public Observable<List<Produto>> buscarProdutos() {
+        return new Observable<>(this.produtoClient.buscarProdutos());
+    }
 }
