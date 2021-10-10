@@ -21,20 +21,22 @@
         <activity
             android:name=".activity.CategoriaActivity"
             android:exported="true" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-        <activity android:name=".activity.FavoritosActivity" />
-        <activity android:name=".SplashScreenActivity">
            <!-- <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>-->
         </activity>
+        <activity android:name=".activity.FavoritosActivity" />
+        <activity android:name=".SplashScreenActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <activity android:name=".activity.MainActivity" />
         <activity android:name=".activity.LoginActivity" />
+        <activity android:name=".SubCategoryFragment"
+            tools:ignore="Instantiatable" />
         <activity
             android:name=".activity.ContaActivity"
             android:parentActivityName=".activity.MainActivity" />

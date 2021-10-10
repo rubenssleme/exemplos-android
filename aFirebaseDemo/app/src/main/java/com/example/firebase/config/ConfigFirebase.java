@@ -13,8 +13,8 @@ public class ConfigFirebase {
     private static StorageReference storage;
 
     //retorna a instancia do FirebaseDB
-    public static DatabaseReference getFirebaseDatabase(){
-        if(db == null){
+    public static DatabaseReference getFirebaseDatabase() {
+        if (db == null) {
             db = FirebaseDatabase.getInstance().getReference();
         }
         return db;
@@ -29,10 +29,11 @@ public class ConfigFirebase {
     }
 
     //retorna a instancia do storage
-    public static StorageReference getFirebaeStorage(){
-            if (storage == null) {
-                storage = FirebaseStorage.getInstance().getReference();
-            }
-            return storage;
+    public static StorageReference getFirebaeStorage() {
+        if (storage == null) {
+            storage = FirebaseStorage.getInstance().getReference();
+        }
+        return storage;
     }
+
 }

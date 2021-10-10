@@ -89,7 +89,6 @@ public class MainFragment extends Fragment {
     }
 
     public void prepararProdutos(){
-
         Produtos p = new Produtos("Pimentão", "R$2,00", R.drawable.img_product_1);
         this.produtos.add(p);
 

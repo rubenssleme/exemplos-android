@@ -2,7 +2,7 @@ package com.example.firebase.model;
 
 public class Categoria {
 
-    private int imgProdutoCategoria;
+    private Long imgProdutoCategoria;
     private Long id;
     private String nome;
     private String nomeCategoria;
@@ -12,7 +12,8 @@ public class Categoria {
 
     }
 
-    public Categoria(String nomeCategoria, int imgProdutoCategoria) {
+
+    public Categoria(String nomeCategoria, Long imgProdutoCategoria) {
         this.nomeCategoria = nomeCategoria;
         this.imgProdutoCategoria = imgProdutoCategoria;
     }
@@ -25,11 +26,11 @@ public class Categoria {
         this.nomeCategoria = nomeCategoria;
     }
 
-    public int getImgProdutoCategoria() {
+    public Long getImgProdutoCategoria() {
         return imgProdutoCategoria;
     }
 
-    public void setImgProdutoCategoria(int imgProdutoCategoria) {
+    public void setImgProdutoCategoria(Long imgProdutoCategoria) {
         this.imgProdutoCategoria = imgProdutoCategoria;
     }
 }

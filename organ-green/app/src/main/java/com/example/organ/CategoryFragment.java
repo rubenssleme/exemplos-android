@@ -43,7 +43,7 @@ public class CategoryFragment extends Fragment implements ListaCategoriaAdapter.
         View view = inflater.inflate(R.layout.fragment_category, container, false);
 
         //Config iniciais da listagem de categoria
-        rcListaCategoria = view.findViewById(R.id.rcListaCategoria);
+        rcListaCategoria = view.findViewById(R.id.rcSubCategoria);
 
         //config rc
         RecyclerView.LayoutManager layoutManager = new LinearLayoutManager(getActivity());
@@ -60,22 +60,21 @@ public class CategoryFragment extends Fragment implements ListaCategoriaAdapter.
         rcListaCategoria.setAdapter(adapter);
 
 
-        return view;
+            return view;
     }
 
     public void ListagemCategoria(){
         Categoria c = new Categoria("Vegetais", R.drawable.img_product_7);
         this.listaCategoria.add(c);
-
         c = new Categoria("Limpeza", R.drawable.limpeza);
         this.listaCategoria.add(c);
-
         c = new Categoria("Cereais", R.drawable.cereais);
         this.listaCategoria.add(c);
-
         c = new Categoria("Chocolate", R.drawable.chocolate);
         this.listaCategoria.add(c);
-        c = new Categoria("Carnes",R.mipmap.ic_organ);
+        c = new Categoria("Gatos",R.drawable.img_cat_gatos);
+        this.listaCategoria.add(c);
+        c = new Categoria("Cães",R.drawable.img_cat_cao);
         this.listaCategoria.add(c);
 
     }
@@ -102,9 +101,13 @@ public class CategoryFragment extends Fragment implements ListaCategoriaAdapter.
             startActivity(intent3);
             break;
             case 4:
-                Intent intent4 = new Intent(getActivity().getApplicationContext(), DetalhesCenouraActivity.class);
+                Intent intent4 = new Intent(getActivity().getApplicationContext(), SubCategoryFragment.class);
             startActivity(intent4);
             break;
+            case 5:
+                Intent intent5 = new Intent(getActivity().getApplicationContext(), DetalhesCenouraActivity.class);
+                startActivity(intent5);
+                break;
             default:
                 Toast.makeText(getContext(), "Valor da categoria não encontrado"  , Toast.LENGTH_SHORT).show();
         }
