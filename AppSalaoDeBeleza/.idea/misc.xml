@@ -17,6 +17,8 @@
         <entry key="..\:/ambiente-dev/workspace-android/exemplos-android/AppSalaoDeBeleza/app/src/main/res/layout/nav_header_main.xml" value="0.3546875" />
         <entry key="..\:/ambiente-dev/workspace-android/exemplos-android/AppSalaoDeBeleza/app/src/main/res/menu/activity_main_drawer.xml" value="0.18" />
         <entry key="..\:/ambiente-dev/workspace-android/exemplos-android/AppSalaoDeBeleza/app/src/main/res/menu/activity_tela_menu.xml" value="0.3390625" />
+        <entry key="app/src/main/res/drawable/button_beauty_full.xml" value="0.1984375" />
+        <entry key="app/src/main/res/layout/activity_login.xml" value="0.33" />
       </map>
     </option>
   </component>

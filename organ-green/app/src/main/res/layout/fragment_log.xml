@@ -30,31 +30,31 @@
 
     </com.google.android.material.textfield.TextInputLayout>
 
-    <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/txtSenhaLogLayout"
-        android:layout_width="330dp"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="40dp"
-        app:passwordToggleEnabled="true">
-
-        <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/txtSenhaLog"
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/txtSenhaLogLayout"
             android:layout_width="330dp"
             android:layout_height="wrap_content"
-            android:fontFamily="@font/lato_bold"
-            android:hint="Senha"
-            android:imeOptions="actionDone"
-            android:includeFontPadding="true"
-            android:inputType="textPassword"
-            android:password="true"
-            android:shadowColor="@color/colorPrimary51"
-            android:text="123456"
-            android:textColor="@color/colorBlack"
-            android:textColorLink="@color/colorPrimary51">
+            android:layout_marginLeft="40dp"
+            app:passwordToggleEnabled="true">
 
-        </com.google.android.material.textfield.TextInputEditText>
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/txtSenhaLog"
+                android:layout_width="330dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/lato_bold"
+                android:hint="Senha"
+                android:imeOptions="actionDone"
+                android:includeFontPadding="true"
+                android:inputType="textPassword"
+                android:password="false"
+                android:shadowColor="@color/colorPrimary51"
+                android:text="123456"
+                android:textColor="@color/colorBlack"
+                android:textColorLink="@color/colorPrimary51">
 
-    </com.google.android.material.textfield.TextInputLayout>
+            </com.google.android.material.textfield.TextInputEditText>
+
+        </com.google.android.material.textfield.TextInputLayout>
 
     <TextView
         android:id="@+id/txtForgot"
